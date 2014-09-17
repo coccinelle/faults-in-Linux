@@ -1,0 +1,10 @@
+.depend*
+.projects_study.hc
+*.patchset/
+*.gumtree/
+Makefile.local
+full-trace.log
+results/
+
+# This file is based on .hc.base and CPP expansion
+study.hc
