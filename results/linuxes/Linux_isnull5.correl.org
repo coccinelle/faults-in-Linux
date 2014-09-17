@@ -1,0 +1,11 @@
+* SAME [[view:/scratch/linuxes/linux-2.6.39/net/batman-adv/routing.c::face=ovl-face1::linb=101::colb=37::cole=47][null test /scratch/linuxes/linux-2.6.39/net/batman-adv/routing.c::101]]
+ [[view:/scratch/linuxes/linux-3.0/net/batman-adv/routing.c::face=ovl-face1::linb=103::colb=31::cole=41][/scratch/linuxes/linux-3.0/net/batman-adv/routing.c::103]]
+* SAME [[view:/scratch/linuxes/linux-2.6.39/drivers/gpu/drm/i915/intel_display.c::face=ovl-face1::linb=4654::colb=6::cole=21][null test /scratch/linuxes/linux-2.6.39/drivers/gpu/drm/i915/intel_display.c::4654]]
+ [[view:/scratch/linuxes/linux-3.0/drivers/gpu/drm/i915/intel_display.c::face=ovl-face1::linb=4825::colb=5::cole=20][/scratch/linuxes/linux-3.0/drivers/gpu/drm/i915/intel_display.c::4825]]
+* SAME [[view:/scratch/linuxes/linux-2.6.38/net/batman-adv/gateway_client.c::face=ovl-face1::linb=162::colb=36::cole=47][null test /scratch/linuxes/linux-2.6.38/net/batman-adv/gateway_client.c::162]]
+ [[view:/scratch/linuxes/linux-2.6.39/net/batman-adv/gateway_client.c::face=ovl-face1::linb=183::colb=26::cole=37][/scratch/linuxes/linux-2.6.39/net/batman-adv/gateway_client.c::183]]
+* SAME [[view:/scratch/linuxes/linux-2.6.33/drivers/staging/batman-adv/routing.c::face=ovl-face1::linb=204::colb=45::cole=55][null test /scratch/linuxes/linux-2.6.33/drivers/staging/batman-adv/routing.c::204]]
+ [[view:/scratch/linuxes/linux-2.6.34/drivers/staging/batman-adv/routing.c::face=ovl-face1::linb=88::colb=44::cole=54][/scratch/linuxes/linux-2.6.34/drivers/staging/batman-adv/routing.c::88]]
+
+* org config
+#+SEQ_TODO: TODO | SAME UNRELATED
