@@ -286,7 +286,8 @@ pattern notes_block           { file = "" format = csv }
 
 experience test
 	on project Linux                
-	with pattern isnull5
+	with pattern isnull5,
+	null_ref6
 
 /*
   pattern realloc  ,
@@ -296,7 +297,6 @@ experience test
   intr_noarg_cli_sti,
   intr_noarg_local_irq_enable_disable,
   noderef          ,
-  null_ref6        ,
   isnull5          ,
   kfree            ,
   var              ,
