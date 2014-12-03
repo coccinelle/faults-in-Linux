@@ -16,13 +16,14 @@ flags="-timeout 90 -use_glimpse"
 
 project Linux {
 
- local_scm = "git:linux/.git"
+ local_scm = "git:linux-full/.git"
  dir = linuxes
  color = 1 0 0
  linestyle = solid
  marktype = none
 // versions = "^v\(2\.6\.[0-9]+|3\.[0-9]+\)$"
-// versions = "linux-{2.6,3}.*"
+ versions = "linux-{2.6,3}.*"
+/*
  versions = {
   ("linux-2.6.0",  12/18/2003, 3626873)
   ("linux-2.6.1",  01/09/2004, 3607545)
@@ -67,6 +68,7 @@ project Linux {
   ("linux-3.0",    07/22/2011, 9415123)
   ("linux-3.16",   08/03/2014, 12208339)
   }
+*/
 }
 
 pattern rcu_deref_out {
@@ -286,30 +288,30 @@ pattern notes_block           { file = "" format = csv }
 
 experience test
 	on project Linux                
-	with pattern isnull5,
-	null_ref6
+	with pattern
+	isnull5          ,
+	null_ref6        ,
+	realloc          ,
+	lock             ,
+	intr             ,
+	lockintr         ,
+	intr_noarg_cli_sti,
+	intr_noarg_local_irq_enable_disable,
+	noderef          ,
+	isnull5          ,
+	kfree            ,
+	var              ,
+	floatop          ,
+	block1a          ,
+	block1b          ,
+	block1c          ,
+	get              ,
+	copy             ,
+	size_rule        ,
+	double_lock2     ,
+	double_lockintr2  
 
 /*
-  pattern realloc  ,
-  lock             ,
-  intr             ,
-  lockintr         ,
-  intr_noarg_cli_sti,
-  intr_noarg_local_irq_enable_disable,
-  noderef          ,
-  isnull5          ,
-  kfree            ,
-  var              ,
-  floatop          ,
-  block1a          ,
-  block1b          ,
-  block1c          ,
-  get              ,
-  copy             ,
-  size_rule        ,
-  double_lock2     ,
-  double_lockintr2  
-
  curve pattern lock_bh          \
  curve pattern double_lock2_bh   \
  curve pattern var1             \
