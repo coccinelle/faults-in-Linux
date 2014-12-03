@@ -1,7 +1,7 @@
 #HERODOTOS is set locally or automatically find by `which`
 -include Makefile.local
 
-HFLAGS=--hacks
+HFLAGS=--hacks --diff hybrid $(PRJ)
 CONF?=study.hc
 BOLT_CONFIG?=debug.config
 
@@ -40,3 +40,4 @@ exist.tbz2:
 pack:
 	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
 
+-include Makefile.dev
