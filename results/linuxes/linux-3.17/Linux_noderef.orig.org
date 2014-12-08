@@ -1,0 +1,5 @@
+* TODO [[view:/scratch/linuxes/linux-3.17/drivers/usb/core/hcd.c::face=ovl-face1::linb=1314::colb=1::cole=6][x /scratch/linuxes/linux-3.17/drivers/usb/core/hcd.c::1314]]
+* TODO [[view:/scratch/linuxes/linux-3.17/drivers/net/wireless/brcm80211/brcmfmac/pcie.c::face=ovl-face1::linb=1596::colb=1::cole=10][x /scratch/linuxes/linux-3.17/drivers/net/wireless/brcm80211/brcmfmac/pcie.c::1596]]
+* TODO [[view:/scratch/linuxes/linux-3.17/drivers/clk/bcm/clk-kona-setup.c::face=ovl-face1::linb=582::colb=1::cole=13][x /scratch/linuxes/linux-3.17/drivers/clk/bcm/clk-kona-setup.c::582]]
+* TODO [[view:/scratch/linuxes/linux-3.17/security/integrity/ima/ima_template.c::face=ovl-face1::linb=128::colb=1::cole=8][x /scratch/linuxes/linux-3.17/security/integrity/ima/ima_template.c::128]]
+* TODO [[view:/scratch/linuxes/linux-3.17/tools/perf/tests/dso-data.c::face=ovl-face1::linb=191::colb=1::cole=5][x /scratch/linuxes/linux-3.17/tools/perf/tests/dso-data.c::191]]
