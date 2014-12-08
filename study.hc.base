@@ -3,7 +3,7 @@ patterns="./cocci"
 #ifdef big
 projects="/home/npalix"
 #elif erods_mc_4
-projects="/scratch"
+projects="/fast_scratch"
 #else
 projects="/var"
 #endif
