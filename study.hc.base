@@ -3,7 +3,7 @@ patterns="./cocci"
 #ifdef big
 projects="/home/npalix"
 #elif erods_mc_4
-projects="/scratch"
+projects="/fast_scratch"
 #else
 projects="/var"
 #endif
@@ -301,7 +301,7 @@ experience test
 	isnull5          ,
 	kfree            ,
 	var              ,
-	floatop          ,
+//	floatop          ,
 	block1a          ,
 	block1b          ,
 	block1c          ,
