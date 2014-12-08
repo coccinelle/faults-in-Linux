@@ -1,0 +1,4 @@
+* TODO [[view:/scratch/linuxes/linux-3.12/arch/mips/kernel/smtc.c::face=ovl-face1::linb=621::colb=47::cole=57][gfp_kernel /scratch/linuxes/linux-3.12/arch/mips/kernel/smtc.c::621]]
+[[view:/scratch/linuxes/linux-3.12/arch/mips/kernel/smtc.c::face=ovl-face2::linb=408::colb=1::cole=15][lock]]
+* TODO [[view:/scratch/linuxes/linux-3.12/arch/x86/platform/efi/efi_64.c::face=ovl-face1::linb=72::colb=44::cole=54][gfp_kernel /scratch/linuxes/linux-3.12/arch/x86/platform/efi/efi_64.c::72]]
+[[view:/scratch/linuxes/linux-3.12/arch/x86/platform/efi/efi_64.c::face=ovl-face2::linb=69::colb=1::cole=15][lock]]

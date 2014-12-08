@@ -1,0 +1,5 @@
+* TODO [[view:/home/npalix/linuxes/linux-3.13/drivers/pinctrl/sh-pfc/pinctrl.c::face=ovl-face1::linb=167::colb=8::cole=16][krealloc /home/npalix/linuxes/linux-3.13/drivers/pinctrl/sh-pfc/pinctrl.c::167]]
+* TODO [[view:/home/npalix/linuxes/linux-3.13/drivers/pinctrl/pinctrl-sunxi.c::face=ovl-face1::linb=758::colb=19::cole=27][krealloc /home/npalix/linuxes/linux-3.13/drivers/pinctrl/pinctrl-sunxi.c::758]]
+* TODO [[view:/home/npalix/linuxes/linux-3.13/drivers/media/media-entity.c::face=ovl-face1::linb=385::colb=10::cole=18][krealloc /home/npalix/linuxes/linux-3.13/drivers/media/media-entity.c::385]]
+* TODO [[view:/home/npalix/linuxes/linux-3.13/drivers/net/wireless/cw1200/wsm.c::face=ovl-face1::linb=1813::colb=14::cole=22][krealloc /home/npalix/linuxes/linux-3.13/drivers/net/wireless/cw1200/wsm.c::1813]]
+* TODO [[view:/home/npalix/linuxes/linux-3.13/kernel/params.c::face=ovl-face1::linb=626::colb=9::cole=17][krealloc /home/npalix/linuxes/linux-3.13/kernel/params.c::626]]

@@ -1,0 +1,2 @@
+File "./cocci/floatop.cocci", line 7, column 0,  charpos = 143
+    around = '@', whole content = @cstcst@

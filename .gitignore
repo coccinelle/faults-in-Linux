@@ -1,5 +1,4 @@
 .depend*
-.projects_study.hc
 *.patchset/
 *.gumtree/
 Makefile.local

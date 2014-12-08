@@ -40,6 +40,10 @@ exist.tbz2:
 pack:
 	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
 
+<<<<<<< HEAD
 
 extract:
 	cd results/linuxes/ ; find -name "Linux_*.edit.org" -exec herodotos extract --orgfile {} --tag linux-3.16 --prefix /scratch/linuxes/ -o ../../v3.16/{} \;
+=======
+-include Makefile.dev
+>>>>>>> orig.org

@@ -1,0 +1,6 @@
+* TODO [[view:/scratch/linuxes/linux-3.8/arch/x86/platform/efi/efi.c::face=ovl-face1::linb=924::colb=15::cole=23][krealloc /scratch/linuxes/linux-3.8/arch/x86/platform/efi/efi.c::924]]
+* TODO [[view:/scratch/linuxes/linux-3.8/drivers/platform/x86/dell-laptop.c::face=ovl-face1::linb=299::colb=13::cole=21][krealloc /scratch/linuxes/linux-3.8/drivers/platform/x86/dell-laptop.c::299]]
+* TODO [[view:/scratch/linuxes/linux-3.8/drivers/pinctrl/mvebu/pinctrl-mvebu.c::face=ovl-face1::linb=528::colb=9::cole=17][krealloc /scratch/linuxes/linux-3.8/drivers/pinctrl/mvebu/pinctrl-mvebu.c::528]]
+* TODO [[view:/scratch/linuxes/linux-3.8/drivers/media/media-entity.c::face=ovl-face1::linb=377::colb=10::cole=18][krealloc /scratch/linuxes/linux-3.8/drivers/media/media-entity.c::377]]
+* TODO [[view:/scratch/linuxes/linux-3.8/kernel/params.c::face=ovl-face1::linb=620::colb=9::cole=17][krealloc /scratch/linuxes/linux-3.8/kernel/params.c::620]]
+* TODO [[view:/scratch/linuxes/linux-3.8/sound/soc/soc-dapm.c::face=ovl-face1::linb=645::colb=9::cole=17][krealloc /scratch/linuxes/linux-3.8/sound/soc/soc-dapm.c::645]]
