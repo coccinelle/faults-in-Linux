@@ -1,0 +1,11 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1098::colb=59::cole=63][4096 /fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::1098]]
+ [[view:/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1147::colb=59::cole=63][/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::1147]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1098::colb=59::cole=63][4096 /fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::1098]]
+ [[view:/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1099::colb=45::cole=49][/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::1099]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1144::colb=59::cole=63][4096 /fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::1144]]
+ [[view:/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1147::colb=59::cole=63][/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::1147]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1144::colb=59::cole=63][4096 /fast_scratch/linuxes/linux-2.6.23/arch/parisc/kernel/firmware.c::1144]]
+ [[view:/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::face=ovl-face1::linb=1099::colb=45::cole=49][/fast_scratch/linuxes/linux-2.6.24/arch/parisc/kernel/firmware.c::1099]]
+
+* org config
+#+SEQ_TODO: TODO | SAME UNRELATED

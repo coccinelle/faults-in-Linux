@@ -1,0 +1,11 @@
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/fs/inode.c::face=ovl-face1::linb=807::colb=2::cole=11][spin_lock /fast_scratch/linuxes/linux-3.12/fs/inode.c::807]]
+ [[view:/fast_scratch/linuxes/linux-3.13/fs/inode.c::face=ovl-face1::linb=780::colb=2::cole=11][/fast_scratch/linuxes/linux-3.13/fs/inode.c::780]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/fs/inode.c::face=ovl-face1::linb=807::colb=2::cole=11][spin_lock /fast_scratch/linuxes/linux-3.12/fs/inode.c::807]]
+ [[view:/fast_scratch/linuxes/linux-3.13/fs/inode.c::face=ovl-face1::linb=807::colb=2::cole=11][/fast_scratch/linuxes/linux-3.13/fs/inode.c::807]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/fs/inode.c::face=ovl-face1::linb=776::colb=2::cole=11][spin_lock /fast_scratch/linuxes/linux-3.12/fs/inode.c::776]]
+ [[view:/fast_scratch/linuxes/linux-3.13/fs/inode.c::face=ovl-face1::linb=780::colb=2::cole=11][/fast_scratch/linuxes/linux-3.13/fs/inode.c::780]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/fs/inode.c::face=ovl-face1::linb=776::colb=2::cole=11][spin_lock /fast_scratch/linuxes/linux-3.12/fs/inode.c::776]]
+ [[view:/fast_scratch/linuxes/linux-3.13/fs/inode.c::face=ovl-face1::linb=807::colb=2::cole=11][/fast_scratch/linuxes/linux-3.13/fs/inode.c::807]]
+
+* org config
+#+SEQ_TODO: TODO | SAME UNRELATED
