@@ -1,4 +1,4 @@
-* TODO [[view:/scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::face=ovl-face1::linb=2736::colb=5::cole=19][copy from user /scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::2736]]
-[[view:/scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::face=ovl-face2::linb=2772::colb=17::cole=21][use]]
-* TODO [[view:/scratch/linuxes/linux-3.12/sound/oss/pss.c::face=ovl-face1::linb=878::colb=7::cole=21][copy from user /scratch/linuxes/linux-3.12/sound/oss/pss.c::878]]
-[[view:/scratch/linuxes/linux-3.12/sound/oss/pss.c::face=ovl-face2::linb=884::colb=19::cole=23][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::face=ovl-face1::linb=2736::colb=5::cole=19][copy from user /fast_scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::2736]]
+[[view:/fast_scratch/linuxes/linux-3.12/fs/btrfs/ioctl.c::face=ovl-face2::linb=2772::colb=17::cole=21][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.12/sound/oss/pss.c::face=ovl-face1::linb=878::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-3.12/sound/oss/pss.c::878]]
+[[view:/fast_scratch/linuxes/linux-3.12/sound/oss/pss.c::face=ovl-face2::linb=884::colb=19::cole=23][use]]
