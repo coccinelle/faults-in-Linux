@@ -1,2 +1,2 @@
-* TODO [[view:/home/npalix/linuxes/linux-3.13/sound/oss/pss.c::face=ovl-face1::linb=878::colb=7::cole=21][copy from user /home/npalix/linuxes/linux-3.13/sound/oss/pss.c::878]]
-[[view:/home/npalix/linuxes/linux-3.13/sound/oss/pss.c::face=ovl-face2::linb=884::colb=19::cole=23][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.13/sound/oss/pss.c::face=ovl-face1::linb=878::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-3.13/sound/oss/pss.c::878]]
+[[view:/fast_scratch/linuxes/linux-3.13/sound/oss/pss.c::face=ovl-face2::linb=884::colb=19::cole=23][use]]

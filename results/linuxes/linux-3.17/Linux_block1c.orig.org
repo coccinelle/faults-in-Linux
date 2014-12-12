@@ -1,2 +1,2 @@
-* TODO [[view:/scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::face=ovl-face1::linb=95::colb=44::cole=54][gfp_kernel /scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::95]]
-[[view:/scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::face=ovl-face2::linb=92::colb=1::cole=15][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::face=ovl-face1::linb=95::colb=44::cole=54][gfp_kernel /fast_scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::95]]
+[[view:/fast_scratch/linuxes/linux-3.17/arch/x86/platform/efi/efi_64.c::face=ovl-face2::linb=92::colb=1::cole=15][lock]]

@@ -1,2 +1,2 @@
-* TODO [[view:/scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::face=ovl-face1::linb=619::colb=47::cole=57][gfp_kernel /scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::619]]
-[[view:/scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::face=ovl-face2::linb=406::colb=1::cole=15][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::face=ovl-face1::linb=619::colb=47::cole=57][gfp_kernel /fast_scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::619]]
+[[view:/fast_scratch/linuxes/linux-3.7/arch/mips/kernel/smtc.c::face=ovl-face2::linb=406::colb=1::cole=15][lock]]

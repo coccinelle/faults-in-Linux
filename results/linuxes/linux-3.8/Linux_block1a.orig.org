@@ -1,4 +1,4 @@
-* TODO [[view:/scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::face=ovl-face1::linb=234::colb=61::cole=71][gfp_kernel /scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::234]]
-[[view:/scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::face=ovl-face2::linb=224::colb=2::cole=11][lock]]
-* TODO [[view:/scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=75::colb=24::cole=34][gfp_kernel /scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::75]]
-[[view:/scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=70::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::face=ovl-face1::linb=234::colb=61::cole=71][gfp_kernel /fast_scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::234]]
+[[view:/fast_scratch/linuxes/linux-3.8/drivers/infiniband/hw/mlx4/cm.c::face=ovl-face2::linb=224::colb=2::cole=11][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=75::colb=24::cole=34][gfp_kernel /fast_scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::75]]
+[[view:/fast_scratch/linuxes/linux-3.8/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=70::colb=1::cole=10][lock]]
