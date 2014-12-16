@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-3.18/drivers/of/address.c::face=ovl-face1::linb=710::colb=33::cole=43][gfp_kernel /fast_scratch/linuxes/linux-3.18/drivers/of/address.c::710]]
+[[view:/fast_scratch/linuxes/linux-3.18/drivers/of/address.c::face=ovl-face2::linb=688::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.18/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=75::colb=24::cole=34][gfp_kernel /fast_scratch/linuxes/linux-3.18/drivers/isdn/mISDN/stack.c::75]]
+[[view:/fast_scratch/linuxes/linux-3.18/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=70::colb=1::cole=10][lock]]
