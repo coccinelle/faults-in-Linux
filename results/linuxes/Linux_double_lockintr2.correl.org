@@ -1,5 +1,3 @@
-* TODO [[view:/fast_scratch/linuxes/linux-3.15/drivers/tty/serial/xilinx_uartps.c::face=ovl-face1::linb=470::colb=2::cole=19][spin_lock_irqsave /fast_scratch/linuxes/linux-3.15/drivers/tty/serial/xilinx_uartps.c::470]]
- [[view:/fast_scratch/linuxes/linux-3.16/drivers/tty/serial/xilinx_uartps.c::face=ovl-face1::linb=459::colb=2::cole=19][/fast_scratch/linuxes/linux-3.16/drivers/tty/serial/xilinx_uartps.c::459]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

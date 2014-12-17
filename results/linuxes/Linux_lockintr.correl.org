@@ -1,21 +1,3 @@
-* TODO [[view:/fast_scratch/linuxes/linux-3.8/kernel/workqueue.c::face=ovl-face1::linb=1620::colb=16::cole=27][spin_lock_irq /fast_scratch/linuxes/linux-3.8/kernel/workqueue.c::1620]]
- [[view:/fast_scratch/linuxes/linux-3.9/kernel/workqueue.c::face=ovl-face1::linb=1553::colb=16::cole=27][/fast_scratch/linuxes/linux-3.9/kernel/workqueue.c::1553]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.4/block/blk-core.c::face=ovl-face1::linb=892::colb=16::cole=29][spin_lock_irq /fast_scratch/linuxes/linux-3.4/block/blk-core.c::892]]
- [[view:/fast_scratch/linuxes/linux-3.5/block/blk-core.c::face=ovl-face1::linb=1090::colb=15::cole=28][/fast_scratch/linuxes/linux-3.5/block/blk-core.c::1090]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.4/block/blk-core.c::face=ovl-face1::linb=892::colb=16::cole=29][spin_lock_irq /fast_scratch/linuxes/linux-3.4/block/blk-core.c::892]]
- [[view:/fast_scratch/linuxes/linux-3.5/block/blk-core.c::face=ovl-face1::linb=886::colb=18::cole=31][/fast_scratch/linuxes/linux-3.5/block/blk-core.c::886]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.4/block/blk-core.c::face=ovl-face1::linb=892::colb=16::cole=29][spin_lock_irq /fast_scratch/linuxes/linux-3.4/block/blk-core.c::892]]
- [[view:/fast_scratch/linuxes/linux-3.5/block/blk-core.c::face=ovl-face1::linb=1015::colb=15::cole=28][/fast_scratch/linuxes/linux-3.5/block/blk-core.c::1015]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.1/mm/slub.c::face=ovl-face1::linb=2345::colb=42::cole=55][spin_lock_irqsave /fast_scratch/linuxes/linux-3.1/mm/slub.c::2345]]
- [[view:/fast_scratch/linuxes/linux-3.2/mm/slub.c::face=ovl-face1::linb=2434::colb=22::cole=35][/fast_scratch/linuxes/linux-3.2/mm/slub.c::2434]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::face=ovl-face1::linb=239::colb=17::cole=33][spin_lock_irq /fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::239]]
- [[view:/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::face=ovl-face1::linb=176::colb=16::cole=32][/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::176]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::face=ovl-face1::linb=239::colb=17::cole=33][spin_lock_irq /fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::239]]
- [[view:/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::face=ovl-face1::linb=553::colb=17::cole=33][/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::553]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::face=ovl-face1::linb=239::colb=17::cole=33][spin_lock_irq /fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::239]]
- [[view:/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::face=ovl-face1::linb=657::colb=16::cole=32][/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::657]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::face=ovl-face1::linb=239::colb=17::cole=33][spin_lock_irq /fast_scratch/linuxes/linux-3.1/drivers/base/power/runtime.c::239]]
- [[view:/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::face=ovl-face1::linb=382::colb=17::cole=33][/fast_scratch/linuxes/linux-3.2/drivers/base/power/runtime.c::382]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED
