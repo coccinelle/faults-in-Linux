@@ -1,0 +1,2 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.24/arch/mips/kernel/smtc.c::face=ovl-face1::linb=537::colb=47::cole=57][gfp_kernel /fast_scratch/linuxes/linux-2.6.24/arch/mips/kernel/smtc.c::537]]
+[[view:/fast_scratch/linuxes/linux-2.6.24/arch/mips/kernel/smtc.c::face=ovl-face2::linb=359::colb=1::cole=15][lock]]

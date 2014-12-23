@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/drivers/usb/wusbcore/security.c::face=ovl-face1::linb=222::colb=8::cole=16][secd]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/drivers/platform/x86/dell-laptop.c::face=ovl-face1::linb=93::colb=13::cole=21][da_tokens]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/fs/bio.c::face=ovl-face1::linb=98::colb=14::cole=22][bio_slabs]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/kernel/params.c::face=ovl-face1::linb=508::colb=9::cole=17][attrs]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/net/core/dev.c::face=ovl-face1::linb=983::colb=16::cole=24][dev -> ifalias]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.32/net/wireless/scan.c::face=ovl-face1::linb=433::colb=11::cole=19][ies]]

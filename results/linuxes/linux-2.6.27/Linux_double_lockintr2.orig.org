@@ -1,0 +1,8 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.27/block/blk-core.c::face=ovl-face1::linb=1122::colb=1::cole=14][spin_lock_irq /fast_scratch/linuxes/linux-2.6.27/block/blk-core.c::1122]]
+[[view:/fast_scratch/linuxes/linux-2.6.27/block/blk-core.c::face=ovl-face2::linb=1202::colb=1::cole=14][second lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.27/drivers/net/ns83820.c::face=ovl-face1::linb=584::colb=2::cole=19][spin_lock_irqsave /fast_scratch/linuxes/linux-2.6.27/drivers/net/ns83820.c::584]]
+[[view:/fast_scratch/linuxes/linux-2.6.27/drivers/net/ns83820.c::face=ovl-face2::linb=596::colb=3::cole=20][second lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.27/drivers/char/ds1286.c::face=ovl-face1::linb=257::colb=1::cole=14][spin_lock_irq /fast_scratch/linuxes/linux-2.6.27/drivers/char/ds1286.c::257]]
+[[view:/fast_scratch/linuxes/linux-2.6.27/drivers/char/ds1286.c::face=ovl-face2::linb=269::colb=1::cole=14][second lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.27/kernel/posix-timers.c::face=ovl-face1::linb=882::colb=1::cole=18][spin_lock_irqsave /fast_scratch/linuxes/linux-2.6.27/kernel/posix-timers.c::882]]
+[[view:/fast_scratch/linuxes/linux-2.6.27/kernel/posix-timers.c::face=ovl-face2::linb=882::colb=1::cole=18][second lock]]

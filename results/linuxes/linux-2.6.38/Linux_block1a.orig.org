@@ -1,0 +1,2 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=75::colb=24::cole=34][gfp_kernel /fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/stack.c::75]]
+[[view:/fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=70::colb=1::cole=10][lock]]

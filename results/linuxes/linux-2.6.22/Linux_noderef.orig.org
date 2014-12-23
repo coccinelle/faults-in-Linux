@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/arch/xtensa/platform-iss/network.c::face=ovl-face1::linb=786::colb=6::cole=9][x /fast_scratch/linuxes/linux-2.6.22/arch/xtensa/platform-iss/network.c::786]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/drivers/video/backlight/cr_bllcd.c::face=ovl-face1::linb=177::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.22/drivers/video/backlight/cr_bllcd.c::177]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::face=ovl-face1::linb=53::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::53]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::face=ovl-face1::linb=68::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::68]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::face=ovl-face1::linb=78::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.22/drivers/clocksource/cyclone.c::78]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/drivers/char/drm/i915_irq.c::face=ovl-face1::linb=544::colb=1::cole=9][x /fast_scratch/linuxes/linux-2.6.22/drivers/char/drm/i915_irq.c::544]]

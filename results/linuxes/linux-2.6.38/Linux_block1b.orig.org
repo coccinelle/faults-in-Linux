@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.38/drivers/scsi/megaraid/megaraid_mm.c::face=ovl-face1::linb=571::colb=49::cole=59][gfp_kernel /fast_scratch/linuxes/linux-2.6.38/drivers/scsi/megaraid/megaraid_mm.c::571]]
+[[view:/fast_scratch/linuxes/linux-2.6.38/drivers/scsi/megaraid/megaraid_mm.c::face=ovl-face2::linb=567::colb=1::cole=18][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/tei.c::face=ovl-face1::linb=1281::colb=26::cole=36][gfp_kernel /fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/tei.c::1281]]
+[[view:/fast_scratch/linuxes/linux-2.6.38/drivers/isdn/mISDN/tei.c::face=ovl-face2::linb=1272::colb=1::cole=18][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.38/drivers/usb/gadget/uvc_video.c::face=ovl-face1::linb=313::colb=42::cole=52][gfp_kernel /fast_scratch/linuxes/linux-2.6.38/drivers/usb/gadget/uvc_video.c::313]]
+[[view:/fast_scratch/linuxes/linux-2.6.38/drivers/usb/gadget/uvc_video.c::face=ovl-face2::linb=303::colb=2::cole=19][lock]]

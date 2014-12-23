@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.34/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=76::colb=24::cole=34][gfp_kernel /fast_scratch/linuxes/linux-2.6.34/drivers/isdn/mISDN/stack.c::76]]
+[[view:/fast_scratch/linuxes/linux-2.6.34/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=71::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.34/net/ipv6/sit.c::face=ovl-face1::linb=361::colb=49::cole=59][gfp_kernel /fast_scratch/linuxes/linux-2.6.34/net/ipv6/sit.c::361]]
+[[view:/fast_scratch/linuxes/linux-2.6.34/net/ipv6/sit.c::face=ovl-face2::linb=343::colb=1::cole=10][lock]]

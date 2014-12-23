@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.3/kernel/module.c::face=ovl-face1::linb=1409::colb=5::cole=19][copy from user /fast_scratch/linuxes/linux-2.6.3/kernel/module.c::1409]]
+[[view:/fast_scratch/linuxes/linux-2.6.3/kernel/module.c::face=ovl-face2::linb=1429::colb=36::cole=39][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.3/net/ipv4/ip_sockglue.c::face=ovl-face1::linb=769::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-2.6.3/net/ipv4/ip_sockglue.c::769]]
+[[view:/fast_scratch/linuxes/linux-2.6.3/net/ipv4/ip_sockglue.c::face=ovl-face2::linb=793::colb=15::cole=18][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.3/sound/oss/pss.c::face=ovl-face1::linb=839::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-2.6.3/sound/oss/pss.c::839]]
+[[view:/fast_scratch/linuxes/linux-2.6.3/sound/oss/pss.c::face=ovl-face2::linb=845::colb=19::cole=23][use]]
