@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/arch/xtensa/platforms/iss/network.c::face=ovl-face1::linb=789::colb=6::cole=9][x /fast_scratch/linuxes/linux-2.6.36/arch/xtensa/platforms/iss/network.c::789]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/drivers/usb/core/hcd.c::face=ovl-face1::linb=1226::colb=1::cole=6][x /fast_scratch/linuxes/linux-2.6.36/drivers/usb/core/hcd.c::1226]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::face=ovl-face1::linb=53::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::53]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::face=ovl-face1::linb=68::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::68]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::face=ovl-face1::linb=78::colb=1::cole=4][x /fast_scratch/linuxes/linux-2.6.36/drivers/clocksource/cyclone.c::78]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.36/tools/perf/util/trace-event-parse.c::face=ovl-face1::linb=1256::colb=3::cole=18][x /fast_scratch/linuxes/linux-2.6.36/tools/perf/util/trace-event-parse.c::1256]]

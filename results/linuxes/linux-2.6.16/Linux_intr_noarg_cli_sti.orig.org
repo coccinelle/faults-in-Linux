@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::face=ovl-face1::linb=490::colb=1::cole=4][cli /fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::490]]
+[[view:/fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::face=ovl-face2::linb=508::colb=2::cole=8][return]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::face=ovl-face1::linb=490::colb=1::cole=4][cli /fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::490]]
+[[view:/fast_scratch/linuxes/linux-2.6.16/drivers/cdrom/cm206.c::face=ovl-face2::linb=515::colb=1::cole=7][return]]

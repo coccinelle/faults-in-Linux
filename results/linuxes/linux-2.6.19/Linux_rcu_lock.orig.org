@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.19/ipc/util.c::face=ovl-face1::linb=664::colb=1::cole=14][lock /fast_scratch/linuxes/linux-2.6.19/ipc/util.c::664]]
+[[view:/fast_scratch/linuxes/linux-2.6.19/ipc/util.c::face=ovl-face2::linb=685::colb=1::cole=7][return]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.19/net/netlabel/netlabel_cipso_v4.c::face=ovl-face1::linb=473::colb=1::cole=14][lock /fast_scratch/linuxes/linux-2.6.19/net/netlabel/netlabel_cipso_v4.c::473]]
+[[view:/fast_scratch/linuxes/linux-2.6.19/net/netlabel/netlabel_cipso_v4.c::face=ovl-face2::linb=589::colb=1::cole=7][return]]
