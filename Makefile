@@ -4,6 +4,7 @@
 HFLAGS=--hacks --diff hybrid $(PATT)
 CONF?=study.hc
 BOLT_CONFIG?=debug.config
+VER=3.18
 
 HOST=$(shell uname -n | cut -f1 -d"." | tr '-' '_')
 PWD=$(shell pwd)
@@ -44,3 +45,7 @@ extract:
 	cd results/linuxes/ ; find -name "Linux_*.edit.org" -exec herodotos extract --orgfile {} --tag linux-3.16 --prefix /scratch/linuxes/ -o ../../v3.16/{} \;
 
 -include Makefile.dev
+
+extract:
+	mkdir -p v$(VER)
+	cd results/linuxes/ ; find -name "Linux_*.new.org" -exec $(HERODOTOS) extract --orgfile \{} --tag linux-$(VER) --prefix /scratch/linuxes/ -o ../../v$(VER)/\{} \;
