@@ -1,5 +1,3 @@
-* TODO [[view:/fast_scratch/linuxes/linux-3.5/mm/slub.c::face=ovl-face1::linb=1318::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.5/mm/slub.c::1318]]
- [[view:/fast_scratch/linuxes/linux-3.6/mm/slub.c::face=ovl-face1::linb=1321::colb=2::cole=19][/fast_scratch/linuxes/linux-3.6/mm/slub.c::1321]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

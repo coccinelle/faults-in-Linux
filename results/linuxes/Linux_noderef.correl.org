@@ -1,7 +1,3 @@
-* TODO [[view:/fast_scratch/linuxes/linux-3.4/drivers/staging/omapdrm/omap_gem.c::face=ovl-face1::linb=235::colb=14::cole=19][x /fast_scratch/linuxes/linux-3.4/drivers/staging/omapdrm/omap_gem.c::235]]
- [[view:/fast_scratch/linuxes/linux-3.5/drivers/staging/omapdrm/omap_gem.c::face=ovl-face1::linb=248::colb=2::cole=7][/fast_scratch/linuxes/linux-3.5/drivers/staging/omapdrm/omap_gem.c::248]]
-* TODO [[view:/fast_scratch/linuxes/linux-3.4/drivers/staging/omapdrm/omap_gem.c::face=ovl-face1::linb=235::colb=14::cole=19][x /fast_scratch/linuxes/linux-3.4/drivers/staging/omapdrm/omap_gem.c::235]]
- [[view:/fast_scratch/linuxes/linux-3.5/drivers/staging/omapdrm/omap_gem.c::face=ovl-face1::linb=254::colb=2::cole=7][/fast_scratch/linuxes/linux-3.5/drivers/staging/omapdrm/omap_gem.c::254]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED
