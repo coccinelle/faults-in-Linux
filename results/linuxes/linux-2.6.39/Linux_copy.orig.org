@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.39/sound/pci/asihpi/hpioctl.c::face=ovl-face1::linb=141::colb=18::cole=32][copy from user /fast_scratch/linuxes/linux-2.6.39/sound/pci/asihpi/hpioctl.c::141]]
+[[view:/fast_scratch/linuxes/linux-2.6.39/sound/pci/asihpi/hpioctl.c::face=ovl-face2::linb=164::colb=16::cole=18][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.39/sound/oss/pss.c::face=ovl-face1::linb=877::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-2.6.39/sound/oss/pss.c::877]]
+[[view:/fast_scratch/linuxes/linux-2.6.39/sound/oss/pss.c::face=ovl-face2::linb=883::colb=19::cole=23][use]]

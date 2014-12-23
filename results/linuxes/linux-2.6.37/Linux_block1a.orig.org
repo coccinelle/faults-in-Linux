@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.37/drivers/isdn/mISDN/stack.c::face=ovl-face1::linb=75::colb=24::cole=34][gfp_kernel /fast_scratch/linuxes/linux-2.6.37/drivers/isdn/mISDN/stack.c::75]]
+[[view:/fast_scratch/linuxes/linux-2.6.37/drivers/isdn/mISDN/stack.c::face=ovl-face2::linb=70::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.37/drivers/staging/ft1000/ft1000-usb/ft1000_hw.c::face=ovl-face1::linb=1068::colb=27::cole=37][gfp_kernel /fast_scratch/linuxes/linux-2.6.37/drivers/staging/ft1000/ft1000-usb/ft1000_hw.c::1068]]
+[[view:/fast_scratch/linuxes/linux-2.6.37/drivers/staging/ft1000/ft1000-usb/ft1000_hw.c::face=ovl-face2::linb=1060::colb=4::cole=13][lock]]

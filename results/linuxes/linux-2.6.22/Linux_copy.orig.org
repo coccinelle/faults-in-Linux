@@ -1,0 +1,4 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/kernel/module.c::face=ovl-face1::linb=1599::colb=5::cole=19][copy from user /fast_scratch/linuxes/linux-2.6.22/kernel/module.c::1599]]
+[[view:/fast_scratch/linuxes/linux-2.6.22/kernel/module.c::face=ovl-face2::linb=1619::colb=36::cole=39][use]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.22/sound/oss/pss.c::face=ovl-face1::linb=890::colb=7::cole=21][copy from user /fast_scratch/linuxes/linux-2.6.22/sound/oss/pss.c::890]]
+[[view:/fast_scratch/linuxes/linux-2.6.22/sound/oss/pss.c::face=ovl-face2::linb=896::colb=19::cole=23][use]]

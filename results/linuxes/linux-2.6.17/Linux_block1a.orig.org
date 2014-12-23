@@ -1,0 +1,6 @@
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.17/arch/powerpc/platforms/iseries/pci.c::face=ovl-face1::linb=110::colb=3::cole=13][gfp_kernel /fast_scratch/linuxes/linux-2.6.17/arch/powerpc/platforms/iseries/pci.c::110]]
+[[view:/fast_scratch/linuxes/linux-2.6.17/arch/powerpc/platforms/iseries/pci.c::face=ovl-face2::linb=108::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::face=ovl-face1::linb=405::colb=36::cole=46][gfp_kernel /fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::405]]
+[[view:/fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::face=ovl-face2::linb=383::colb=1::cole=10][lock]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::face=ovl-face1::linb=405::colb=36::cole=46][gfp_kernel /fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::405]]
+[[view:/fast_scratch/linuxes/linux-2.6.17/net/irda/irda_device.c::face=ovl-face2::linb=393::colb=2::cole=11][lock]]
