@@ -1,23 +1,15 @@
-#HERODOTOS is set locally or automatically find by `which`
--include Makefile.local
-
-HFLAGS=--hacks --diff hybrid $(PATT)
 CONF?=study.hc
-BOLT_CONFIG?=debug.config
 VER=3.18
 
+#HERODOTOS is set locally or automatically find by `which`
+-include ../Makefile.local
+
+HFLAGS=--hacks --diff hybrid $(PATT)
 HOST=$(shell uname -n | cut -f1 -d"." | tr '-' '_')
 PWD=$(shell pwd)
 DIR=$(shell basename $(PWD))
 
-CLUSTER=~npalix/herodotos/scripts/Makefile.inc
-
-ifneq ("$(shell if [ -f $(CLUSTER) ]; then echo true ; else echo false; fi)", "false")
-include $(CLUSTER)
-else
-include ~/herodotos/herodotos/scripts/Makefile.inc
-#include /usr/local/share/herodotos/Makefile.inc
-endif
+include /usr/local/share/herodotos/Makefile.inc
 
 .PHONY:: fix-bossa fix-palace fix-cluster pack exist.tbz2
 
