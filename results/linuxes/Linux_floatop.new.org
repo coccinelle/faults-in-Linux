@@ -1,4 +1,4 @@
-* IGNORED [[view:/fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::face=ovl-face1::linb=100::colb=22::cole=28][65.536 /fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::100]]
+* FP [[view:/fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::face=ovl-face1::linb=100::colb=22::cole=28][65.536 /fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::100]]
 ** [[view:/fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::face=ovl-face1::linb=100::colb=22::cole=28][65.536 /fast_scratch/linuxes/linux-3.0/Documentation/ptp/testptp.c::100]]
 * FP [[view:/fast_scratch/linuxes/linux-2.6.39/arch/m68k/platform/532x/config.c::face=ovl-face1::linb=447::colb=63::cole=66][0.5 /fast_scratch/linuxes/linux-2.6.39/arch/m68k/platform/532x/config.c::447]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.39/arch/m68k/platform/532x/config.c::face=ovl-face1::linb=447::colb=63::cole=66][0.5 /fast_scratch/linuxes/linux-2.6.39/arch/m68k/platform/532x/config.c::447]]
