@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ../../common.sh
+. ../../common.sh ../..
 
 ORIG=../../count_lines
 PPDIR=../populate-funcs

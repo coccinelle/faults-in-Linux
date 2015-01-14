@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ../../common.sh
+. ../../common.sh ../..
 
 if [ -d $LINUXES/linux-next/.git ];then
     GIT=$LINUXES/linux-next/.git

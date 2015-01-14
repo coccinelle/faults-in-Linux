@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. ../../common.sh
+. ../../common.sh ../..
 
 cat > /tmp/NOTES-in-collect <<EOF
 #Linux-2.4_bad_kfree_notes.orig.org.gz

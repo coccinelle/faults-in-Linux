@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ../common.sh
+. ../common.sh ..
 
 BASE=`basename $0`
 TMPFILE=$BASE.export

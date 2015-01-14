@@ -1,6 +1,9 @@
 #!/bin/sh
 
+RELPATH=$1
+
 HOST=`hostname`
+LOCALCONF=$RELPATH/common.local.sh
 
 if [ -z "$DBNAME" ]; then
 		DBNAME=faults_in_Linux
@@ -14,12 +17,11 @@ if [ -z "$VERSION_FILE" ]; then
 		VERSION_FILE=versions.txt
 fi
 
-export PGDATABASE=$DBNAME
-
-if [ "$HOST" = "xxxx" ] ; then
-export PGHOST=localhost
-DB="-h $PGHOST $PGDATABASE"
-else
-DB="$PGDATABASE"
+if [ -f $LOCALCONF ] ; then
+	. $LOCALCONF 
 fi
+
+export PGDATABASE=$DBNAME
+export PGHOST=$HOST
+export DB="-h $PGHOST $PGDATABASE"
 
