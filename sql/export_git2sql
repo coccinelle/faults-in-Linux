@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#####
+#
+# NOTE:
+# - Further treatment is required for non-ascii caracters
+# - Commit a27ac38efd6dc6dccebfc9bcc475ab4aa5fc4a56 is dated in 2019 ! -> Should be 2005
+# - cxie4 -> Chao Xie
+#
+#####
+BASE=`basename $0`
+SQL=$BASE.sql
+
+echo "Creating $SQL..."
+
+echo "INSERT INTO history (commit_id, author_id, author_date, committer_id, committer_date) VALUES" > $SQL
+
+TMPFILE=$BASE.export #`mktemp $(BASE).XXXX`
+
+# %cd: committer date
+# %cD: committer date, RFC2822 style
+# %cr: committer date, relative
+# %ct: committer date, UNIX timestamp
+# %ci: committer date, ISO 8601 format
+
+if [ ! -e $TMPFILE ]; then
+echo "Exporting to $TMPFILE..."
+git --git-dir /var/linuxes/linux-full/.git log --pretty=format:"%H|%an|%ai|%cn|%ci" \
+	linux-2.6.0..linux-3.0 | sort -u > $TMPFILE
+fi
+
+echo "Converting to SQL..."
+while read COMMIT ; do
+
+	HASH=`echo "$COMMIT" | cut -f1 -d'|'`
+	AN=`echo "$COMMIT" | cut -f2 -d'|' | sed "s/'/''/"`
+	AD=`echo "$COMMIT" | cut -f3 -d'|'`
+	CN=`echo "$COMMIT" | cut -f4 -d'|' | sed "s/'/''/"`
+	CD=`echo "$COMMIT" | cut -f5 -d'|'`
+
+	echo "('$HASH', get_author_id('$AN'), '$AD', get_author_id('$CN'), '$CD')," >> $SQL
+done < $TMPFILE
+
+echo ";" >> $SQL
+
+echo "Done!"
+
+
