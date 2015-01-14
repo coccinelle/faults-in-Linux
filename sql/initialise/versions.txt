@@ -1,0 +1,89 @@
+linux-1.0 linux-1.0 03/13/1994
+linux-1.1.13 linux-1.1.13 05/23/1994
+linux-1.2.0 linux-1.2.0 03/07/1995
+linux-1.3.0 linux-1.3.0 06/12/1995
+linux-1.3.100 linux-1.3.100 05/10/1996
+linux-2.0 linux-2.0 06/09/1996
+linux-2.0.10 linux-2.0.10 07/27/1996
+linux-2.0.20 linux-2.0.20 09/13/1996
+linux-2.1.0 linux-2.1.0 09/30/1996
+linux-2.1.20 linux-2.1.20 01/02/1997
+linux-2.1.40 linux-2.1.40 05/22/1997
+linux-2.1.60 linux-2.1.60 10/25/1997
+linux-2.1.80 linux-2.1.80 01/21/1998
+linux-2.1.100 linux-2.1.100 05/08/1998
+linux-2.1.120 linux-2.1.120 09/05/1998
+linux-2.2.0 linux-2.2.0 01/26/1999
+linux-2.3.0 linux-2.3.0 05/23/1999
+linux-2.3.10 linux-2.3.10 07/08/1999
+linux-2.3.20 linux-2.3.20 10/09/1999
+linux-2.3.30 linux-2.3.30 12/07/1999
+linux-2.3.40 linux-2.3.40 01/21/2000
+linux-2.3.50 linux-2.3.50 03/07/2000
+linux-2.3.99-pre6 linux-2.3.99-pre6 04/26/2000
+linux-2.4.0 linux-2.4.0 01/04/2001
+linux-2.4.1 linux-2.4.1 01/30/2001
+linux-2.4.10 linux-2.4.10 09/23/2001
+linux-2.5.0 linux-2.5.0 11/23/2001
+linux-2.5.25 linux-2.5.25 07/05/2002
+linux-2.5.50 linux-2.5.50 11/27/2002
+linux-2.5.75 linux-2.5.75 07/13/2003
+linux-2.6.0 linux-2.6.0 12/18/2003
+linux-2.6.1 linux-2.6.1 01/09/2004
+linux-2.6.2 linux-2.6.2 02/04/2004
+linux-2.6.3 linux-2.6.3 02/18/2004
+linux-2.6.4 linux-2.6.4 03/11/2004
+linux-2.6.5 linux-2.6.5 04/04/2004
+linux-2.6.6 linux-2.6.6 05/10/2004
+linux-2.6.7 linux-2.6.7 06/16/2004
+linux-2.6.8 linux-2.6.8 08/14/2004
+linux-2.6.9 linux-2.6.9 10/19/2004
+linux-2.6.10 linux-2.6.10 12/24/2004
+linux-2.6.11 linux-2.6.11 03/02/2005
+linux-2.6.12 linux-2.6.12 06/17/2005
+linux-2.6.13 linux-2.6.13 08/28/2005
+linux-2.6.14 linux-2.6.14 10/27/2005
+linux-2.6.15 linux-2.6.15 01/02/2006
+linux-2.6.16 linux-2.6.16 03/19/2006
+linux-2.6.17 linux-2.6.17 06/17/2006
+linux-2.6.18 linux-2.6.18 09/19/2006
+linux-2.6.19 linux-2.6.19 11/29/2006
+linux-2.6.20 linux-2.6.20 02/04/2007
+linux-2.6.21 linux-2.6.21 04/25/2007
+linux-2.6.22 linux-2.6.22 07/08/2007
+linux-2.6.23 linux-2.6.23 10/09/2007
+linux-2.6.24 linux-2.6.24 01/24/2008
+linux-2.6.25 linux-2.6.25 04/16/2008
+linux-2.6.26 linux-2.6.26 07/13/2008
+linux-2.6.27 linux-2.6.27 10/09/2008
+linux-2.6.28 linux-2.6.28 12/24/2008
+linux-2.6.29 linux-2.6.29 03/23/2009
+linux-2.6.30 linux-2.6.30 06/09/2009
+linux-2.6.31 linux-2.6.31 09/09/2009
+linux-2.6.32 linux-2.6.32 12/02/2009
+linux-2.6.33 linux-2.6.33 02/24/2010
+linux-2.6.34 linux-2.6.34 05/16/2010
+linux-2.6.35 linux-2.6.35 08/01/2010
+linux-2.6.36 linux-2.6.36 10/20/2010
+linux-2.6.37 linux-2.6.37 01/04/2011
+linux-2.6.38 linux-2.6.38 03/14/2011
+linux-2.6.39 linux-2.6.39 05/18/2011
+linux-3.0 linux-3.0 07/22/2011
+linux-3.1 linux-3.1 10/24/2011 c3b92c8787367a8bb53d57d9789b558f1295cc96	 
+linux-3.2 linux-3.2 01/04/2012 805a6af8dba5dfdd35ec35dc52ec0122400b2610	 
+linux-3.3 linux-3.3 03/18/2012 c16fa4f2ad19908a47c63d8fa436a1178438c7e7	 
+linux-3.4 linux-3.4 05/20/2012 76e10d158efb6d4516018846f60c2ab5501900bc	 
+linux-3.5 linux-3.5 07/21/2012 28a33cbc24e4256c143dce96c7d93bf423229f92	 
+linux-3.6 linux-3.6 09/30/2012 a0d271cbfed1dd50278c6b06bead3d00ba0a88f9	 
+linux-3.7 linux-3.7 12/10/2012 29594404d7fe73cd80eaa4ee8c43dcc53970c60e	 
+linux-3.8 linux-3.8 02/18/2013 19f949f52599ba7c3f67a5897ac6be14bfcb1200	 
+linux-3.9 linux-3.9 04/28/2013 c1be5a5b1b355d40e6cf79cc979eb66dafa24ad1	 
+linux-3.10 linux-3.10 06/30/2013 8bb495e3f02401ee6f76d1b1d77f3ac9f079e3763
+linux-3.11 linux-3.11 09/02/2013 6e4664525b1db28f8c4e1130957f70a94c19213e3
+linux-3.12 linux-3.12 11/03/2013 5e01dc7b26d9f24f39abace5da98ccbd6a5ceb523
+linux-3.13 linux-3.13 01/19/2014 d8ec26d7f8287f5788a494f56e8814210f0e64be4
+linux-3.14 linux-3.14 03/30/2014 455c6fdbd219161bd09b1165f11699d6d73de11c4
+linux-3.15 linux-3.15 06/08/2014 1860e379875dfe7271c649058aeddffe5afd9d0d4
+linux-3.16 linux-3.16 08/03/2014 19583ca584d6f574384e17fe7613dfaeadcdc4a64
+linux-3.17 linux-3.17 10/05/2014 bfe01a5ba2490f299e1d2d5508cbbbadd897bbe94
+linux-3.18 linux-3.18 12/07/2014 b2776bf7149bddd1f4161f14f79520f17fc1d71d4

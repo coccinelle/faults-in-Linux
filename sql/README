@@ -1,0 +1,29 @@
+
+- Create user account
+	sudo su postgres -c "createuser -d -r -s -P -l -E user"
+
+- Create a database named $DBNAME ('faults_in_Linux' for instance)
+	sudo su postgres -c "createdb $DBNAME"
+
+- Update ../common.sh accordingly
+- Create the tables
+	psql $DBNAME -f build-tables.sql
+
+- Add the utility functions
+        psql $DBNAME -f function.sql
+
+- Add views
+        psql $DBNAME -f generic.sql
+        psql $DBNAME -f rate.sql
+
+- Fill the tables dedicated to the study
+        psql $DBNAME -f study.sql
+
+=============================================================
+
+You can now fill the database with data from code source and bug reports.
+
+        make -C initialise populate-study
+
+For recovery, use the postgres account to send SQL queries
+	sudo su postgres -c psql

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+. ../common.sh ..
+
+BASE=`basename $0`
+TMPFILE=$BASE.export
+SQLFILE=$BASE.sql
+
+cat > $SQLFILE <<EOF
+create temp table tmp_history (
+commit_id           VarChar(64),
+version_name        VarChar(256)
+);
+
+INSERT INTO tmp_history VALUES
+EOF
+
+echo "Filling $SQLFILE..."
+SEP=""
+for VN in `seq 0 38`; do
+
+    NEXT=$((VN+1))
+    git --git-dir /var/linuxes/linux-full/.git log --pretty=format:"%H" \
+	    linux-2.6.$VN..linux-2.6.$NEXT > $TMPFILE
+    
+    while read hash; do
+
+    if [ -z $SEP ] ; then
+	SEP=","
+    else
+	echo $SEP >> $SQLFILE
+    fi
+    echo -n "('$hash', 'linux-2.6.$NEXT')" >> $SQLFILE
+    done < $TMPFILE
+done
+
+git --git-dir /var/linuxes/linux-full/.git log --pretty=format:"%H" \
+    linux-2.6.39..linux-3.0 > $TMPFILE
+while read hash; do
+    echo "," >> $SQLFILE
+    echo -n "('$hash', 'linux-3.0')" >> $SQLFILE
+done < $TMPFILE
+
+echo ";" >> $SQLFILE
+
+cat >> $SQLFILE <<EOF
+
+UPDATE history SET version_name = tmp.version_name
+FROM tmp_history tmp WHERE history.commit_id = tmp.commit_id;
+EOF
+
+echo "Done($SQLFILE)"
+rm $TMPFILE
