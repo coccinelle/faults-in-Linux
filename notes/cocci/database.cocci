@@ -1,7 +1,8 @@
 @initialize:python@
+@@
 
 import psycopg2
-conn = psycopg2.connect("dbname=atocs user=npalix")
+conn = psycopg2.connect("dbname=faults_in_Linux user=npalix")
 curs = conn.cursor()
 
 def add_note(ty,pos,src):
@@ -27,5 +28,6 @@ def add_note(ty,pos,src):
   conn.commit()
 
 @finalize:python@
+@@
 curs.close()
 conn.close()
