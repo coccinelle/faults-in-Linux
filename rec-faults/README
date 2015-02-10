@@ -1,0 +1,24 @@
+
+
+In 1st-collect, the recursive iteration are done.
+The iterate process is control by the herodotos
+infrastructure and applied on all the versions.
+
+The output is placed in the acc_* files.
+These files are further processed by the fix
+tool (fix.ml) to produce files for the 2nd-find-faults
+directory.
+
+
+Once herodotos and make have been used to produce
+the acc_* files, the 'apply-fix' target can be used
+to automatically apply the fix and copy the files
+in the 2nd-find-faults directory.
+
+NOTE:
+	null2 is identical to null3.
+	null2 is used for mini-osdi,
+	while null3 is used for linux-2.6
+	but herodotos may have been used
+	to handle that difference.
+	
