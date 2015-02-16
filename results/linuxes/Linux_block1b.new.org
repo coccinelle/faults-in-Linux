@@ -14,7 +14,7 @@
  [[view:/fast_scratch/linuxes/linux-3.7/drivers/media/platform/soc_camera/mx2_camera.c::face=ovl-face2::linb=843::colb=2::cole=19][lock]]
 ** [[view:/fast_scratch/linuxes/linux-3.7/drivers/media/platform/soc_camera/mx2_camera.c::face=ovl-face1::linb=882::colb=4::cole=14][gfp_kernel /fast_scratch/linuxes/linux-3.7/drivers/media/platform/soc_camera/mx2_camera.c::882]]
 ** [[view:/fast_scratch/linuxes/linux-3.8/drivers/media/platform/soc_camera/mx2_camera.c::face=ovl-face1::linb=925::colb=4::cole=14][gfp_kernel /fast_scratch/linuxes/linux-3.8/drivers/media/platform/soc_camera/mx2_camera.c::925]]
-* FP intentional [[view:/fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::face=ovl-face1::linb=1232::colb=34::cole=44][gfp_kernel /fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::1232]]
+* BUG bInCallback flag is not sufficient to decide which value should be used [[view:/fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::face=ovl-face1::linb=1232::colb=34::cole=44][gfp_kernel /fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::1232]]
  [[view:/fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::face=ovl-face2::linb=1205::colb=1::cole=18][lock]]
 ** [[view:/fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::face=ovl-face1::linb=1232::colb=34::cole=44][gfp_kernel /fast_scratch/linuxes/linux-3.7/drivers/staging/ced1401/usb1401.c::1232]]
 ** [[view:/fast_scratch/linuxes/linux-3.8/drivers/staging/ced1401/usb1401.c::face=ovl-face1::linb=1216::colb=34::cole=44][gfp_kernel /fast_scratch/linuxes/linux-3.8/drivers/staging/ced1401/usb1401.c::1216]]
