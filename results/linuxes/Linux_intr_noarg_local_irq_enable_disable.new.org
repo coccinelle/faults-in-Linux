@@ -64,7 +64,7 @@
 ** [[view:/fast_scratch/linuxes/linux-3.16/arch/arm/kernel/signal.c::face=ovl-face1::linb=602::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.16/arch/arm/kernel/signal.c::602]]
 ** [[view:/fast_scratch/linuxes/linux-3.17/arch/arm/kernel/signal.c::face=ovl-face1::linb=602::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.17/arch/arm/kernel/signal.c::602]]
 ** [[view:/fast_scratch/linuxes/linux-3.18/arch/arm/kernel/signal.c::face=ovl-face1::linb=602::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.18/arch/arm/kernel/signal.c::602]]
-* BUG ? [[view:/fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::face=ovl-face1::linb=89::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::89]]
+* FP [[view:/fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::face=ovl-face1::linb=89::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::89]]
  [[view:/fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::face=ovl-face2::linb=96::colb=1::cole=7][return]]
 ** [[view:/fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::face=ovl-face1::linb=89::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.3/arch/powerpc/platforms/pseries/processor_idle.c::89]]
 ** [[view:/fast_scratch/linuxes/linux-3.4/arch/powerpc/platforms/pseries/processor_idle.c::face=ovl-face1::linb=89::colb=2::cole=19][local_irq_disable /fast_scratch/linuxes/linux-3.4/arch/powerpc/platforms/pseries/processor_idle.c::89]]
