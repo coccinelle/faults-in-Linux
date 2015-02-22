@@ -1,0 +1,58 @@
+prefix="."
+patterns="."
+
+projects="/fast_scratch"
+
+results="./results"
+website="./web"
+findcmd="time (./iterate %d %p %f) 2> %b.time.log"
+flags=""
+
+project Linux {
+
+ local_scm = "git:linux-full/.git"
+ dir = linuxes
+ color = 1 0 0
+ linestyle = solid
+ marktype = none
+// versions = "^v\(2\.6\.[0-9]+|3\.[0-9]+\)$"
+ versions = "linux-{2.6,3}.*"
+}
+
+pattern null {
+ file = "null.cocci"
+ flags = "NULL"
+}
+
+pattern null3 {
+ file = "null3.cocci"
+ flags = "NULL"
+}
+
+pattern free {
+ file = "kfree1_all.cocci"
+ flags = "kfree"
+}
+
+pattern schedule {
+ file = "schedule.cocci"
+ flags = "schedule"
+}
+
+graph null.jgr {
+  pattern = null
+  yaxis = count
+  curve project Linux
+}
+
+graph null3.jgr {
+  pattern = null3
+  yaxis = count
+  curve project Linux
+}
+
+graph schedule.jgr {
+  pattern = schedule
+  yaxis = count
+  curve project Linux
+}
