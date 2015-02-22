@@ -1,0 +1,49 @@
+#!/bin/bash
+
+DIR=$1
+SP=`basename $2 .cocci`
+INIT=$3
+
+trap cleanup SIGINT
+
+VERSION=`basename ${DIR}`
+OUTPUT=${SP}_${INIT}_${VERSION}
+
+ACC=acc_${SP}_${INIT}_${VERSION}
+INPUT=input_${SP}_${INIT}_${VERSION}
+TMP=tmp_${SP}_${INIT}_${VERSION}
+
+OPTIONS="--dir ${DIR} --no-includes --use-glimpse --very-quiet --timeout 60 --allow-inconsistent-paths --cache-prefix /fast_scratch/linuxes/cocci.cache/ --cache-limit 100000"
+#OPTIONS="-dir ${DIR} -no_includes -use_glimpse -very_quiet -timeout 60 -allow_inconsistent_paths"
+DEFNS="-D alloc=${INIT} -D file=${OUTPUT} -D tmp=${TMP} -D version=${VERSION}"
+CALL="spatch.opt --cocci-file ${SP}.cocci ${DEFNS} ${OPTIONS} > ${TMP}"
+#CALL="spatch_linux ${SP}.cocci -very_quiet ${DEFNS} ${OPTIONS} ; mv ${SP}.out ${TMP} "
+CMD="${CALL} ; cat ${TMP} >> ${OUTPUT}"
+
+cleanup() {
+	killall spatch.opt
+	rm -f ${INPUT} ${ACC} ${OUTPUT} ${TMP}
+	rm -f results/linuxes/$VERSION/Linux_$SP.orig.org
+	exit 1
+}
+
+/bin/rm -f ${INPUT} ${ACC}
+echo "${CMD}"
+echo "${CMD}" > ${INPUT}
+echo "${CMD}" > ${ACC}
+while test -s ${INPUT} ; do
+  /bin/rm -f ${OUTPUT} ;
+  touch ${OUTPUT} ;
+  source ${INPUT} ;
+  sort -u ${OUTPUT} > ${TMP} ;
+  diff ${ACC} ${TMP} | grep "^> " | cut -d" " -f2- > ${INPUT} ;
+  cat ${INPUT} >> ${ACC} ;
+  sort -u ${ACC} > ${TMP} ;
+  mv ${TMP} ${ACC} ;
+  wc -l ${INPUT} ${ACC} ;
+done
+
+awk 'BEGIN {FS="[ =]"} {printf "-D fn=%s -D defining_file=%s\n", $6,$18}' ${ACC} | sort -u > ${OUTPUT}
+#/bin/rm -f ${INPUT} ${ACC} ${TMP}
+
+touch results/linuxes/$VERSION/Linux_$SP.orig.org
