@@ -1,51 +1,13 @@
-#HERODOTOS is set locally or automatically find by `which`
--include Makefile.local
 
-HFLAGS=--hacks --diff hybrid $(PATT)
-CONF?=study.hc
-BOLT_CONFIG?=debug.config
-VER=3.18
 
-HOST=$(shell uname -n | cut -f1 -d"." | tr '-' '_')
-PWD=$(shell pwd)
-DIR=$(shell basename $(PWD))
+all:
 
-CLUSTER=~npalix/herodotos/scripts/Makefile.inc
+update-branches:
+	git checkout orig.org && git merge master
+	git checkout correl && git merge orig.org
+	git checkout edit.hybrid && git merge correl
+	git checkout new.hybrid && git merge edit.hybrid
 
-ifneq ("$(shell if [ -f $(CLUSTER) ]; then echo true ; else echo false; fi)", "false")
-include $(CLUSTER)
-else
-include ~/herodotos/herodotos/scripts/Makefile.inc
-#include /usr/local/share/herodotos/Makefile.inc
-endif
+blob_dump:
+	pg_dump -b -c -C -f $(PGDATABASE).$@ -F c -O -Z 9 -U $(USER) -W $(PGDATABASE)
 
-.PHONY:: fix-bossa fix-palace fix-cluster pack exist.tbz2
-
-$(CONF): $(CONF).base
-	 cpp -P -undef -D$(HOST) $(@:%=%.base) > $@
-fix-mc4:
-	for f in `find results/ -name "*.org"`; do sed -i "s|/var/linuxes|/scratch/linuxes|g" $$f ; done
-
-fix-bossa:
-	for f in `find results/ -name "*.org"`; do sed -i "s|/home/palix/projects/linux|/var/linuxes|g" $$f ; done
-
-fix-palace:
-	for f in `find results/ -name "*.org"`; do sed -i "s|/var/storage/projects/linux|/var/linuxes|g" $$f ; done
-
-fix-cluster:
-	for f in `find results/ -name "*.org"`; do sed -i "s|/home/npalix|/var|g" $$f ; done
-
-exist.tbz2:
-	find results -name "*.exist" | xargs tar cjvf $@
-
-pack:
-	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
-
-extract:
-	cd results/linuxes/ ; find -name "Linux_*.edit.org" -exec herodotos extract --orgfile {} --tag linux-3.16 --prefix /scratch/linuxes/ -o ../../v3.16/{} \;
-
--include Makefile.dev
-
-extract:
-	mkdir -p v$(VER)
-	cd results/linuxes/ ; find -name "Linux_*.new.org" -exec $(HERODOTOS) extract --orgfile \{} --tag linux-$(VER) --prefix /scratch/linuxes/ -o ../../v$(VER)/\{} \;

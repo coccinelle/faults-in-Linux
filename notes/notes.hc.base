@@ -1,0 +1,93 @@
+prefix="."
+patterns="./cocci"
+#ifdef erods_mc_4
+projects="/fast_scratch"
+#else
+projects="/var"
+#endif
+results="./results"
+website="./web"
+findcmd="spatch.opt %f -sp_file %p -dir %d 2> %b.log > %o"
+flags="-timeout 120 -use_glimpse"
+cpucore=1
+
+project Linux {
+ local_scm = "git:linux-full/.git"
+ dir = linuxes
+ color = 1 0 0
+ linestyle = solid
+ marktype = none
+ versions = "linux-{2.6,3}.*"
+}
+
+pattern runall {
+ file = "runall.cocci"
+ flags = "-no_includes -include_headers"
+}
+
+pattern runall1 {
+ file = "runall1.cocci"
+ flags = "-no_includes -include_headers"
+}
+
+pattern rcu {
+ file = "rcu.cocci"
+ flags = "-no_includes -include_headers"
+}
+
+pattern sn {
+ file = "size_notes.cocci"
+ flags = "-all_includes"
+}
+
+pattern inull_notes {
+ file = "inull_notes.cocci"
+ flags = "-no_includes -include_headers"
+}
+
+pattern block_notes {
+ file = "block_notes.cocci"
+ flags = "-no_includes -include_headers"
+}
+
+graph gr/test {
+ yaxis = count
+ project = Linux
+
+ curve pattern runall
+}
+
+graph gr/atest {
+ yaxis = count
+ project = Linux
+
+ curve pattern runall1
+}
+
+graph gr/btest {
+ yaxis = count
+ project = Linux
+
+ curve pattern sn
+}
+
+graph gr/ctest {
+ yaxis = count
+ project = Linux
+
+ curve pattern block_notes
+}
+
+graph gr/dtest {
+ yaxis = count
+ project = Linux
+
+ curve pattern inull_notes
+}
+
+graph gr/etest {
+ yaxis = count
+ project = Linux
+
+ curve pattern rcu
+}

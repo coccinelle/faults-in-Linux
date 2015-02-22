@@ -6,3 +6,5 @@ full-trace.log
 
 # This file is based on .hc.base and CPP expansion
 study.hc
+notes.hc
+common.local.sh
