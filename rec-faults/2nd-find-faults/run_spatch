@@ -1,0 +1,23 @@
+#!/bin/bash
+
+dir=$1
+sp=$2
+version=`basename $dir`
+fnlist=$3_${version}
+output=$4
+
+/bin/rm -f $output
+touch $output
+
+if [ ! -e $fnlist ]; then
+	echo "ERROR: File $fnlist not found !" > /dev/stderr
+	exit 1;
+fi
+
+while read x ; do
+  spatch.opt --cocci-file $sp $x \
+	--allow-inconsistent-paths --no-includes \
+	--timeout 60 --very-quiet --use-glimpse --dir $dir >> $output
+#	--timeout 60 --very-quiet --use-glimpse --dir $dir \
+#	--cache-prefix /var/linuxes/cocci.cache/ --cache-limit 10000 >> $output
+done < $fnlist
