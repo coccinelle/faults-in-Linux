@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-HFLAGS=--hacks
+HFLAGS=--hacks --diff hybrid $(PATT)
 CONF=bad_kfree.hc
 #CONF=save_bad_kfree.hc
 
