@@ -4,6 +4,7 @@ CONF=bad_kfree.hc
 #CONF=save_bad_kfree.hc
 
 ###################################
+-include ../../Makefile.local
 
 HERODOTOS=~/herodotos/herodotos/herodotos
 HOST=$(shell uname -n | cut -f1 -d"." | tr '-' '_')
@@ -20,4 +21,4 @@ $(CONF): $(CONF).base
 pack:
 	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
 
-include Makefile.local
+-include Makefile.local
