@@ -1,0 +1,67 @@
+
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.10 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s0 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.10.out) \
+>& tmp.schedule4.2.6.10 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.11 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s1 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.11.out) \
+>& tmp.schedule4.2.6.11 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.12 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s2 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.12.out) \
+>& tmp.schedule4.2.6.12 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.13 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s3 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.13.out) \
+>& tmp.schedule4.2.6.13 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.14 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s4 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.14.out) \
+>& tmp.schedule4.2.6.14 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.15 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s5 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.15.out) \
+>& tmp.schedule4.2.6.15 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.16 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s6 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.16.out) \
+>& tmp.schedule4.2.6.16 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.17 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s7 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.17.out) \
+>& tmp.schedule4.2.6.17 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.18 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s8 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.18.out) \
+>& tmp.schedule4.2.6.18 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-2.6.19 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s9 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.2.6.19.out) \
+>& tmp.schedule4.2.6.19 &
+
+(spatch.opt -allow_inconsistent_paths -quiet -timeout 120 \
+-dir /fast_scratch/linuxes/linux-3.0 -use_glimpse -cocci_file schedule4.cocci \
+--cache-prefix s10 --cache-limit 100 -no_show_diff -no_includes \
+> schedule4.3.0.out) \
+>& tmp.schedule4.3.0 &

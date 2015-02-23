@@ -1,0 +1,4 @@
+bad_kfree.hc
+Linux.*
+*.log
+*.org.bk
