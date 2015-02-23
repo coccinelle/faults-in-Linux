@@ -1,0 +1,10 @@
+#!/bin/tcsh
+
+set nm=$1
+
+/bin/rm -f {$nm}_result.out
+touch {$nm}_result.out
+foreach x ("`cat $2`")
+  spatch_linux {$nm}.cocci $x -all_includes
+  cat {$nm}.out >> {$nm}_result.out
+end
