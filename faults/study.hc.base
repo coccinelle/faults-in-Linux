@@ -286,7 +286,7 @@ pattern notes_krealloc        { file = "" format = csv }
 pattern notes_var             { file = "" format = csv }
 pattern notes_block           { file = "" format = csv }
 
-experience test
+experience main
 	on project Linux                
 	with pattern
 	isnull5          ,
@@ -317,18 +317,15 @@ experience test
  curve pattern var1             \
  curve pattern block1           \
  curve pattern copy_deref       \
-
-graph gr/rcu_lock.jgr {
- xaxis = date          
- yaxis = count         
- project = Linux
-		        
- curve pattern rcu_lock
- curve pattern srcu_lock
- curve pattern rcu_lock_bh
- curve pattern rcu_lock_sched
- curve pattern rcu_lock_sched_notrace
-// curve pattern rcu_other
- curve pattern rcu_deref_out
-}
 */
+
+experience rcu
+	on project Linux
+	with pattern
+	rcu_lock,
+	srcu_lock,
+	rcu_lock_bh,
+	rcu_lock_sched,
+	rcu_lock_sched_notrace,
+//	rcu_other,
+	rcu_deref_out
