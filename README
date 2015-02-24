@@ -2,18 +2,56 @@
 *=*=*=* Project to study faults in Linux *=*=*=*
 
 This project study Linux version based on linux-* tags available
-in the git repository mentioned in study.hc.base.
+in the git repository mentioned in the Herodotos configuration files
+(e.g. study.hc.base).
+
+* 1. Repository organisation *
+
+The branch are incrementally defined. At each step, new results
+are added to the tree.
 
 The 'master' branch keeps track of the project definitions.
-Which coccinelle files are applied? Which options are used?...
+These definitions include which coccinelle files are applied and
+which options are used.
+
+The 'collect' branch only concerns the rec-faults directory.
+It tracks the list of functions that will be used to look for faults.
 
 The 'orig.org' branch tracks the results of Coccinelle for each
 spatch file and each Linux version. The *.orig.org files are stored
 under results/linux/linux-*/.
 
-The 'correl' branch tracks the correlation files and the correlated files.
+The 'edit.hybrid' branch tracks the correlated reports. The reports
+have been correlated with the hybrid strategy. It means that GNU Diff
+has been used to track the faults, then GumTree when GNU Diff has failed.
+The correlation files are empty with this strategy. The edit.org files
+have reports marked for inspection, i.e. TODO.
 
-A correlated file lists the unique reports with a status annotation
+The 'new.hybrid' branch is almost identical. Each new.org file is a copy
+of the corresponding edit.org file. Once inspected, the reports should no
+longer have TODO remaining.
+
+* 2. Structure of the project *
+
+The project contains information to search for faults in Linux, import the
+fault reports in a database, and produce some graphs.
+
+The following directories contains Herodotos projects to search for the faults:
+ - faults: Coccinelle scripts used to directly search for faults in the Linux kernel
+ - notes: Coccinelle scripts used to record code site where a fault may appear. It is used to compute
+   	  the ratio of faults per code side.
+ - rec-faults/1st-collect: Coccinelle and shell scripts to collect function name of interest
+ - rec-faults/2nd-find-faults: Faults related to a wrong/bad usage of a function recorded in the 1st phase
+
+The sql directory contains SQL and shell scripts to set up a database.
+The shell scripts allow to fill the database with information about the versions,
+the files, the functions.
+The scripts allow to create the views needed to extract interpretable results.
+
+* 3. Structure of the correlated files *
+
+A correlated file lists (i.e. edit.org and new.org files) the unique
+reports with a status annotation
 as a Org headline. The status are the following:
 - TODO: Not manually reviewed
 - UNKNOWN: Not able to determine
