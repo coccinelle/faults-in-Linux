@@ -1,5 +1,5 @@
 CONF?=study.hc
-VER=3.18
+VER=3.19
 
 #HERODOTOS is set locally or automatically find by `which`
 -include ../Makefile.local
@@ -33,8 +33,7 @@ exist.tbz2:
 pack:
 	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
 
--include Makefile.dev
-
 extract:
 	mkdir -p v$(VER)
 	cd results/linuxes/ ; find -name "Linux_*.new.org" -exec $(HERODOTOS) extract --orgfile \{} --tag linux-$(VER) --prefix /scratch/linuxes/ -o ../../v$(VER)/\{} \;
+
