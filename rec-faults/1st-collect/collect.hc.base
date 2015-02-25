@@ -1,5 +1,5 @@
 prefix="."
-patterns="."
+patterns="./cocci"
 
 projects="/fast_scratch"
 
@@ -29,30 +29,7 @@ pattern null3 {
  flags = "NULL"
 }
 
-pattern free {
- file = "kfree1_all.cocci"
- flags = "kfree"
-}
+experiment collect
+  on project Linux
+  with pattern null, null3
 
-pattern schedule {
- file = "schedule.cocci"
- flags = "schedule"
-}
-
-graph null.jgr {
-  pattern = null
-  yaxis = count
-  curve project Linux
-}
-
-graph null3.jgr {
-  pattern = null3
-  yaxis = count
-  curve project Linux
-}
-
-graph schedule.jgr {
-  pattern = schedule
-  yaxis = count
-  curve project Linux
-}

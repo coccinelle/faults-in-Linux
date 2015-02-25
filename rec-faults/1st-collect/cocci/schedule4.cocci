@@ -1,6 +1,7 @@
 virtual after_start
 
 @initialize:ocaml@
+@@
 
 let tbl = Hashtbl.create(101)
 let warnings = Hashtbl.create(101)
@@ -37,6 +38,7 @@ with Not_found ->
  end
 
 @finalize:ocaml@
+@@
 
 let l = Hashtbl.fold (fun k v rest -> (!v,k) :: rest) warnings [] in
 let l = List.rev (List.sort compare l) in

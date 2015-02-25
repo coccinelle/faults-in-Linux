@@ -23,52 +23,11 @@ project Linux {
  marktype = none
 // versions = "^v\(2\.6\.[0-9]+|3\.[0-9]+\)$"
  versions = "linux-{2.6,3}.*"
-/*
- versions = {
-  ("linux-2.6.0",  12/18/2003, 3626873)
-  ("linux-2.6.1",  01/09/2004, 3607545)
-  ("linux-2.6.2",  02/04/2004, 3670554)
-  ("linux-2.6.3",  02/18/2004, 3713312)
-  ("linux-2.6.4",  03/11/2004, 3744413)
-  ("linux-2.6.5",  04/04/2004, 3773257)
-  ("linux-2.6.6",  05/10/2004, 3816743)
-  ("linux-2.6.7",  06/16/2004, 3825070)
-  ("linux-2.6.8",  08/14/2004, 3881767)
-  ("linux-2.6.9",  10/19/2004, 3951026)
-  ("linux-2.6.10", 12/24/2004, 3979326)
-  ("linux-2.6.11", 03/02/2005, 4051267)
-  ("linux-2.6.12", 06/17/2005, 4155826)
-  ("linux-2.6.13", 08/28/2005, 4289406)
-  ("linux-2.6.14", 10/27/2005, 4399620)
-  ("linux-2.6.15", 01/02/2006, 4481795)
-  ("linux-2.6.16", 03/19/2006, 4601957)
-  ("linux-2.6.17", 06/17/2006, 4669412)
-  ("linux-2.6.18", 09/19/2006, 4750426)
-  ("linux-2.6.19", 11/29/2006, 4890004)
-  ("linux-2.6.20", 02/04/2007, 4972172)
-  ("linux-2.6.21", 04/25/2007, 5060948)
-  ("linux-2.6.22", 07/08/2007, 5215458)
-  ("linux-2.6.23", 10/09/2007, 5272632)
-  ("linux-2.6.24", 01/24/2008, 5455345)
-  ("linux-2.6.25", 04/16/2008, 5679912)
-  ("linux-2.6.26", 07/13/2008, 5780304)
-  ("linux-2.6.27", 10/09/2008, 5903948)
-  ("linux-2.6.28", 12/24/2008, 6219333)
-  ("linux-2.6.29", 03/23/2009, 6724330)
-  ("linux-2.6.30", 06/09/2009, 7083842)
-  ("linux-2.6.31", 09/09/2009, 7338314)
-  ("linux-2.6.32", 12/02/2009, 7663555)
-  ("linux-2.6.33", 02/24/2010, 7889875)
-  ("linux-2.6.34", 05/16/2010, 8103841)
-  ("linux-2.6.35", 08/01/2010, 8388776)
-  ("linux-2.6.36", 10/20/2010, 8580121)
-  ("linux-2.6.37", 01/04/2011, 8931244)
-  ("linux-2.6.38", 03/14/2011, 9139376)
-  ("linux-2.6.39", 05/18/2011, 9357119)
-  ("linux-3.0",    07/22/2011, 9415123)
-  ("linux-3.16",   08/03/2014, 12208339)
-  }
-*/
+}
+
+pattern ret6 {
+ file = "ret6.cocci"
+ correl = strict
 }
 
 pattern rcu_deref_out {
@@ -286,7 +245,7 @@ pattern notes_krealloc        { file = "" format = csv }
 pattern notes_var             { file = "" format = csv }
 pattern notes_block           { file = "" format = csv }
 
-experience main
+experiment main
 	on project Linux                
 	with pattern
 	isnull5          ,
@@ -309,17 +268,10 @@ experience main
 	copy             ,
 	size_rule        ,
 	double_lock2     ,
-	double_lockintr2  
+	double_lockintr2 ,
+	ret6 
 
-/*
- curve pattern lock_bh          \
- curve pattern double_lock2_bh   \
- curve pattern var1             \
- curve pattern block1           \
- curve pattern copy_deref       \
-*/
-
-experience rcu
+experiment rcu
 	on project Linux
 	with pattern
 	rcu_lock,
