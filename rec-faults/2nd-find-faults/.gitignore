@@ -1,4 +1,4 @@
-bad_kfree.hc
+find-faults.hc
 Linux.*
 *.log
 *.org.bk

@@ -1,5 +1,5 @@
 prefix="."
-patterns="."
+patterns="./cocci"
 
 projects="/fast_scratch"
 
