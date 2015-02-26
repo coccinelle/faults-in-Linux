@@ -1,0 +1,2 @@
+* TODO [[view:/var/linuxes/linux-2.6.18/net/decnet/dn_rules.c::face=ovl-face1::linb=249::colb=12::cole=28][dn_fib_get_table /var/linuxes/linux-2.6.18/net/decnet/dn_rules.c::249]]
+[[view:/var/linuxes/linux-2.6.18/net/decnet/dn_rules.c::face=ovl-face2::linb=221::colb=1::cole=14][ref]]
