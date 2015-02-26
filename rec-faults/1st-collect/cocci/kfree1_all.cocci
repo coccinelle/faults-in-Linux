@@ -1,4 +1,4 @@
-#include "manage_static.cocci"
+#include "cocci/manage_static.cocci"
 
 @fns exists@
 expression E;

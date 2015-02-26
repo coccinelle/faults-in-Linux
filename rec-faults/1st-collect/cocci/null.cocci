@@ -2,7 +2,7 @@ virtual after_start
 
 // consider whether the return should be under an if
 
-#include "manage_static.cocci"
+#include "cocci/manage_static.cocci"
 
 @a depends on !after_start exists@
 identifier fn;
