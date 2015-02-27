@@ -29,8 +29,8 @@
 ** [[view:/fast_scratch/linuxes/linux-3.4/drivers/media/video/mx2_camera.c::face=ovl-face1::linb=848::colb=4::cole=14][gfp_kernel /fast_scratch/linuxes/linux-3.4/drivers/media/video/mx2_camera.c::848]]
 ** [[view:/fast_scratch/linuxes/linux-3.5/drivers/media/video/mx2_camera.c::face=ovl-face1::linb=857::colb=4::cole=14][gfp_kernel /fast_scratch/linuxes/linux-3.5/drivers/media/video/mx2_camera.c::857]]
 ** [[view:/fast_scratch/linuxes/linux-3.6/drivers/media/video/mx2_camera.c::face=ovl-face1::linb=857::colb=4::cole=14][gfp_kernel /fast_scratch/linuxes/linux-3.6/drivers/media/video/mx2_camera.c::857]]
-* BUG [[view:/fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::face=ovl-face1::linb=343::colb=42::cole=52][gfp_kernel /fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::343]][[view:/fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::face=ovl-face2::linb=302::colb=1::cole=18][
-lock]]
+* BUG [[view:/fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::face=ovl-face1::linb=343::colb=42::cole=52][gfp_kernel /fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::343]]
+  [[view:/fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::face=ovl-face2::linb=302::colb=1::cole=18][lock]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::face=ovl-face1::linb=343::colb=42::cole=52][gfp_kernel /fast_scratch/linuxes/linux-2.6.37/arch/arm/mach-msm/iommu.c::343]]
 * BUG [[view:/fast_scratch/linuxes/linux-2.6.35/drivers/usb/gadget/uvc_video.c::face=ovl-face1::linb=313::colb=42::cole=52][gfp_kernel /fast_scratch/linuxes/linux-2.6.35/drivers/usb/gadget/uvc_video.c::313]]
  [[view:/fast_scratch/linuxes/linux-2.6.35/drivers/usb/gadget/uvc_video.c::face=ovl-face2::linb=303::colb=2::cole=19][lock]]
