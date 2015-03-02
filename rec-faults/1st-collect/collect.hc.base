@@ -29,12 +29,12 @@ pattern null3 {
  flags = "NULL"
 }
 
-pattern free {
+pattern kfree1_all {
  file = "kfree1_all.cocci"
  flags = "kfree"
 }
 
 experiment collect
   on project Linux
-  with pattern null, null3, free
+  with pattern null, null3, kfree1_all
 
