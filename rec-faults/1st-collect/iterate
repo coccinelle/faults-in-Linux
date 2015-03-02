@@ -44,7 +44,11 @@ while test -s ${INPUT} ; do
   wc -l ${INPUT} ${ACC} ;
 done
 
-awk 'BEGIN {FS="[ =]"} {printf "-D fn=%s -D defining_file=%s\n", $6,$18}' ${ACC} | sort -u > ${OUTPUT}
+awk 'BEGIN {FS="[ =]"} {printf "-D fn=%s -D defining_file=%s\n", $6,$17}' ${ACC} | \
+	sed -e '/NULL/d' \
+        -e 's/defining_file=--dir/external/' \
+        -e 's/defining_file=file/external/' | \
+	sort -u > ${OUTPUT}
 #/bin/rm -f ${INPUT} ${ACC} ${TMP}
 
 touch results/linuxes/$VERSION/Linux_$SP.orig.org
