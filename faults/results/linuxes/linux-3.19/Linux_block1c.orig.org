@@ -1,0 +1,2 @@
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/arch/x86/platform/efi/efi_64.c::face=ovl-face1::linb=94::colb=44::cole=54][gfp_kernel /fast_scratch/linuxes/linux-3.19/arch/x86/platform/efi/efi_64.c::94]]
+[[view:/fast_scratch/linuxes/linux-3.19/arch/x86/platform/efi/efi_64.c::face=ovl-face2::linb=91::colb=1::cole=15][lock]]
