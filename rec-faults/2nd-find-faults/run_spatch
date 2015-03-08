@@ -3,7 +3,7 @@
 dir=$1
 sp=$2
 version=`basename $dir`
-fnlist=$3_${version}
+fnlist=collect/$3_${version}
 output=$4
 
 /bin/rm -f $output
