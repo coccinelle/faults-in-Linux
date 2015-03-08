@@ -1,0 +1,5 @@
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/drivers/pinctrl/sunxi/pinctrl-sunxi.c::face=ovl-face1::linb=802::colb=19::cole=27][krealloc /fast_scratch/linuxes/linux-3.19/drivers/pinctrl/sunxi/pinctrl-sunxi.c::802]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/drivers/pinctrl/sh-pfc/pinctrl.c::face=ovl-face1::linb=167::colb=8::cole=16][krealloc /fast_scratch/linuxes/linux-3.19/drivers/pinctrl/sh-pfc/pinctrl.c::167]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/drivers/pinctrl/berlin/berlin.c::face=ovl-face1::linb=238::colb=20::cole=28][krealloc /fast_scratch/linuxes/linux-3.19/drivers/pinctrl/berlin/berlin.c::238]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/drivers/net/wireless/cw1200/wsm.c::face=ovl-face1::linb=1813::colb=14::cole=22][krealloc /fast_scratch/linuxes/linux-3.19/drivers/net/wireless/cw1200/wsm.c::1813]]
+* TODO [[view:/fast_scratch/linuxes/linux-3.19/drivers/media/media-entity.c::face=ovl-face1::linb=423::colb=10::cole=18][krealloc /fast_scratch/linuxes/linux-3.19/drivers/media/media-entity.c::423]]
