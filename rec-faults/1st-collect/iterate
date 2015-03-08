@@ -49,6 +49,6 @@ awk 'BEGIN {FS="[ =]"} {printf "-D fn=%s -D defining_file=%s\n", $6,$17}' ${ACC}
         -e 's/defining_file=--dir/external/' \
         -e 's/defining_file=file/external/' | \
 	sort -u > ${OUTPUT}
-#/bin/rm -f ${INPUT} ${ACC} ${TMP}
+/bin/rm -f ${INPUT} ${ACC} ${TMP}
 
 touch results/linuxes/$VERSION/Linux_$SP.orig.org
