@@ -2,3 +2,4 @@ find-faults.hc
 Linux.*
 *.log
 *.org.bk
+results/linuxes/*.org
