@@ -1,0 +1,3 @@
+*.log
+results/linuxes/Linux_*.orig.org
+results/linuxes/linux-*/Linux_rcu.orig.org
