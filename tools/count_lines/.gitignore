@@ -1,3 +1,5 @@
 *.cm[io]
 
 count_lines
+count_lines
+count_lines.opt
