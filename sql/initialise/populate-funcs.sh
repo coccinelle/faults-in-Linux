@@ -2,7 +2,7 @@
 
 . ../../common.sh ../..
 
-ORIG=../../count_lines
+ORIG=../../tools/count_lines
 PPDIR=../populate-funcs
 BIN=count_lines
 
@@ -51,7 +51,7 @@ genmakefile() {
 		while read line; do
  				V=$(echo $line | cut -d' ' -f1)
  				echo -ne " $PPDIR/populate-$V.sql"
-		done < ../versions.txt
+		done < ../$VERSION_FILE
 
 		echo
 
@@ -60,12 +60,12 @@ genmakefile() {
  				V=$(echo $line | cut -d' ' -f1)
 				echo "$PPDIR/populate-$V.sql: "
 				echo -e "\t./gen.sh $V > \$@ 2>$PPDIR/populate-$V.err"
-		done < ../versions.txt
+		done < ../$VERSION_FILE
 }
 
 genmakefile > Makefile.2
 
-make -j8 -f Makefile.2
+make -j -f Makefile.2
 
 cd ..
 #rm -Rf tmp
