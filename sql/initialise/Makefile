@@ -29,8 +29,9 @@ populate-study:
 	psql $(DBNAME) -f init-study_tables.sql #> /dev/null
 	./update-release-commit.sh
 
-populate-funcs: populate-funcs.sql
-	psql $(DBNAME) -f $< > /dev/null
+populate-funcs:
+	./populate-funcs.sh
+	for f in `ls populate-funcs/*.sql`; do psql $(DBNAME) -f $$f > /dev/null ; done
 
 populate-files: populate-files.sql
 	psql $(DBNAME) -f $< > /dev/null
