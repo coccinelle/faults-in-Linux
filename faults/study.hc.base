@@ -229,22 +229,6 @@ pattern double_lockintr2 {
  flags = "-no_includes -include_headers"
 }
 
-
-pattern notes_copy            { file = "" format = csv }
-pattern notes_kfree           { file = "" format = csv }
-pattern notes_get             { file = "" format = csv }
-pattern notes_intr            { file = "" format = csv }
-pattern notes_isnull          { file = "" format = csv }
-pattern notes_null_ref        { file = "" format = csv }
-pattern notes_lock            { file = "" format = csv }
-pattern notes_double_lock     { file = "" format = csv }
-pattern notes_lockintr        { file = "" format = csv }
-pattern notes_double_lockintr { file = "" format = csv }
-pattern notes_noderef         { file = "" format = csv }
-pattern notes_krealloc        { file = "" format = csv }
-pattern notes_var             { file = "" format = csv }
-pattern notes_block           { file = "" format = csv }
-
 experiment main
 	on project Linux                
 	with pattern
