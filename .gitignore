@@ -8,6 +8,10 @@ results/
 */results/linuxes/project
 */results/linuxes/Makefile
 
+# Binary files
+*.o
+*.cm[iox]
+
 # This file is based on .hc.base and CPP expansion
 study.hc
 notes.hc
