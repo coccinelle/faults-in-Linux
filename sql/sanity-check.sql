@@ -20,4 +20,8 @@ and functions.file_id = full_files.file_id
 group by version_name, release_date
 order by release_date;
 
-
+select version_name, count(note_id) as number_of_notes
+from full_notes
+where version_main = 3
+group by version_name, release_date
+order by release_date
