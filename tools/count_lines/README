@@ -1,0 +1,10 @@
+
+count_lines expects to found coccinelle code in ~/coccinelle
+This can be override by setting CHOME in Makefile.config
+
+To build the line counter (native version)
+	$ make opt
+
+	or (for the bytecode version)
+
+	$ make
