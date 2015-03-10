@@ -18,40 +18,10 @@ project Linux {
  versions = "linux-{2.6,3}.*"
 }
 
-pattern bad_null3 {
- file = "bad_null.cocci"
- flags = "null3_NULL"
- correl=strict
-}
-
-pattern bad_null3_notes {
- file = "bad_null_notes.cocci"
- flags = "null3_NULL"
- format = csv
-}
-
-pattern bad_kfree {
- file = "bad_kfree.cocci"
- flags = "kfree"
- correl=strict
-}
-
-pattern bad_kfree_notes {
- file = "bad_kfree_notes.cocci"
- flags = "kfree"
- format=csv
-}
-
 pattern bad_null {
  file = "bad_null.cocci"
  flags = "null_NULL"
  correl=strict
-}
-
-pattern bad_null_notes {
- file = "bad_null_notes.cocci"
- flags = "null_NULL"
- format = csv
 }
 
 pattern bad_null2 {
@@ -60,10 +30,16 @@ pattern bad_null2 {
  correl=strict
 }
 
-pattern bad_null2_notes {
- file = "bad_null_notes.cocci"
- flags = "null2_NULL"
- format = csv
+pattern bad_null3 {
+ file = "bad_null.cocci"
+ flags = "null3_NULL"
+ correl=strict
+}
+
+pattern bad_kfree {
+ file = "bad_kfree.cocci"
+ flags = "kfree"
+ correl=strict
 }
 
 pattern bad_rcu {
@@ -108,66 +84,34 @@ pattern bad_lock5a {
  correl=strict
 }
 
-pattern bad_lock1_notes {
- file = "bad_kfree_notes.cocci"  // intentional!
- flags = "schedule_schedule"
+pattern bad_null_notes {
+ file = "bad_null_notes.cocci"
+ flags = "null_NULL"
+ format = csv
+}
+
+pattern bad_null3_notes {
+ file = "bad_null_notes.cocci"
+ flags = "null3_NULL"
+ format = csv
+}
+
+pattern bad_kfree_notes {
+ file = "bad_kfree_notes.cocci"
+ flags = "kfree"
  format=csv
 }
 
-pattern bad_lock2_notes {
- file = "bad_kfree_notes.cocci"  // intentional!
- flags = "schedule_schedule"
- format=csv
-}
-
-// no need to distinguish between 1 and 2
-// that is just for lock, and this focuses on the call
 pattern bad_lock_notes {
  file = "bad_kfree_notes.cocci"  // intentional!
  flags = "schedule_schedule"
  format=csv
 }
 
-graph null_notes.jgr {
-  pattern = bad_null_notes
-  yaxis = count
-  format = csv
-  curve project Linux
-}
+experiment faults
+	on project Linux
+	with pattern bad_null, bad_lock3a, bad_lock4a, bad_lock5a, bad_rcu
+experiment notes
+	on project Linux
+	with pattern bad_lock_notes, bad_null_notes, bad_null3_notes
 
-graph null.jgr {
-  pattern = bad_null
-  yaxis = count
-  curve project Linux
-}
-
-graph rcu.jgr {
-  pattern = bad_rcu
-  yaxis = count
-  curve project Linux
-}
-
-graph locks.jgr {
-  pattern = bad_lock3a
-  yaxis = count
-  curve project Linux
-}
-
-graph locks4.jgr {
-  pattern = bad_lock4a
-  yaxis = count
-  curve project Linux
-}
-
-graph locks5.jgr {
-  pattern = bad_lock5a
-  yaxis = count
-  curve project Linux
-}
-
-graph lock_notes.jgr {
-  pattern = bad_lock_notes
-  yaxis = count
-  format = csv
-  curve project Linux
-}
