@@ -4,6 +4,9 @@
 Makefile.local
 full-trace.log
 
+*/results/linuxes/project
+*/results/linuxes/Makefile
+
 # This file is based on .hc.base and CPP expansion
 study.hc
 notes.hc
