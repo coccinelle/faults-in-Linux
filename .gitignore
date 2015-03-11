@@ -7,6 +7,9 @@ full-trace.log
 */results/linuxes/project
 */results/linuxes/Makefile
 
+*/*/results/linuxes/project
+*/*/results/linuxes/Makefile
+
 # Binary files
 *.o
 *.cm[iox]
