@@ -5,8 +5,8 @@ VER=3.19
 PATTERNS=block1a block1b block1c var isnull5 null_ref6 copy get  \
 	double_lock2 lock intr intr_noarg_cli_sti \
 	intr_noarg_local_irq_enable_disable \
-	double_lockintr2 lockintr kfree floatop realloc noderef  \
-	size_rule
+	double_lockintr2 lockintr floatop realloc
+# Wait: size_rule noderef kfree
 # rcu_lock rcu_lock_bh rcu_lock_sched rcu_lock_sched_notrace srcu_lock bad_rcu rcu_deref_out
 
 #HERODOTOS is set locally or automatically find by `which`
@@ -47,10 +47,11 @@ extract:
 	cd results/linuxes/ ; find -name "Linux_*.new.org" -exec $(HERODOTOS) extract --orgfile \{} --tag linux-$(VER) --prefix /scratch/linuxes/ -o ../../v$(VER)/\{} \;
 
 
-EXPORT=$(PATT:%=export-%)
+EXPORT=$(PATTERNS:%=export-%)
 export: $(EXPORT)
 $(EXPORT): $(NEW)
+	mkdir -p sql
 	$(HERODOTOS) export-reports --prefix /fast_scratch/linuxes/ \
 		--orgfile results/linuxes/Linux_$@.new.org \
-		--to-sql-update linux-$(MINVER)
+		--to-sql-update linux-$(MINVER) > sql/$@.sql
 
