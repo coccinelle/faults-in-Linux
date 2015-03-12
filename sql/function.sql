@@ -205,3 +205,19 @@ begin
 end;
 $$ LANGUAGE 'plpgsql';
 
+
+create or replace function get_corr_id (int,int,int) returns int as $$
+declare
+	file_id_p ALIAS FOR $1;
+	line_p    ALIAS FOR $2;
+	col_p    ALIAS FOR $3;
+
+	res			     int;
+begin
+	select correlation_id into res from reports r where r.file_id=file_id_p and r.line_no=line_p and r.column_start = col_p;
+
+  return res;
+
+end;
+$$ LANGUAGE 'plpgsql';
+
