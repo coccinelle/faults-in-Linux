@@ -665,7 +665,7 @@
 ** [[view:/fast_scratch/linuxes/linux-2.6.12/arch/parisc/kernel/ioctl32.c::face=ovl-face1::linb=335::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.12/arch/parisc/kernel/ioctl32.c::335]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.13/arch/parisc/kernel/ioctl32.c::face=ovl-face1::linb=335::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.13/arch/parisc/kernel/ioctl32.c::335]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.14/arch/parisc/kernel/ioctl32.c::face=ovl-face1::linb=335::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.14/arch/parisc/kernel/ioctl32.c::335]]
-* TODO [[view:/fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::face=ovl-face1::linb=328::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::328]]
+* BUG [[view:/fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::face=ovl-face1::linb=328::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::328]]
  [[view:/fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::face=ovl-face2::linb=344::colb=17::cole=27][use]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::face=ovl-face1::linb=328::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.8/arch/sparc64/kernel/ioctl32.c::328]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.9/arch/sparc64/kernel/ioctl32.c::face=ovl-face1::linb=328::colb=5::cole=13][get user /fast_scratch/linuxes/linux-2.6.9/arch/sparc64/kernel/ioctl32.c::328]]

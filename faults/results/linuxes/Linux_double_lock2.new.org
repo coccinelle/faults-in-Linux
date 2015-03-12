@@ -613,7 +613,7 @@
 ** [[view:/fast_scratch/linuxes/linux-2.6.24/fs/configfs/dir.c::face=ovl-face1::linb=355::colb=3::cole=13][mutex_lock /fast_scratch/linuxes/linux-2.6.24/fs/configfs/dir.c::355]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.25/fs/configfs/dir.c::face=ovl-face1::linb=355::colb=3::cole=13][mutex_lock /fast_scratch/linuxes/linux-2.6.25/fs/configfs/dir.c::355]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.26/fs/configfs/dir.c::face=ovl-face1::linb=355::colb=3::cole=13][mutex_lock /fast_scratch/linuxes/linux-2.6.26/fs/configfs/dir.c::355]]
-* TODO [[view:/fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::face=ovl-face1::linb=601::colb=1::cole=10][spin_lock /fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::601]]
+* FP [[view:/fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::face=ovl-face1::linb=601::colb=1::cole=10][spin_lock /fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::601]]
  [[view:/fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::face=ovl-face2::linb=601::colb=1::cole=10][second lock]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::face=ovl-face1::linb=601::colb=1::cole=10][spin_lock /fast_scratch/linuxes/linux-2.6.17/fs/fuse/dev.c::601]]
 ** [[view:/fast_scratch/linuxes/linux-2.6.18/fs/fuse/dev.c::face=ovl-face1::linb=694::colb=1::cole=10][spin_lock /fast_scratch/linuxes/linux-2.6.18/fs/fuse/dev.c::694]]
