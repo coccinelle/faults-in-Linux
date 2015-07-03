@@ -145,6 +145,9 @@ CREATE TABLE reports (
 	UNIQUE (report_id, file_id, line_no, column_start, column_end)
 );
 CREATE UNIQUE INDEX reports_idx ON reports (correlation_id, file_id, line_no, column_start, column_end);
+CREATE INDEX correlation_fkey ON reports USING hash (correlation_id);
+CREATE INDEX fault_position ON reports USING btree (file_id, line_no, column_start, column_end);
+CREATE UNIQUE INDEX reports_pkey ON reports USING btree (report_id);
 
 -- describe a position of a note
 -- create table report_annotations (
