@@ -1,2 +1,2 @@
-* TODO [[view:/var/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::face=ovl-face1::linb=580::colb=3::cole=17][bpq_new_device /var/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::580]]
-[[view:/var/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::face=ovl-face2::linb=575::colb=1::cole=14][ref]]
+* TODO [[view:/fast_scratch/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::face=ovl-face1::linb=580::colb=3::cole=17][bpq_new_device /fast_scratch/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::580]]
+[[view:/fast_scratch/linuxes/linux-2.6.10/drivers/net/hamradio/bpqether.c::face=ovl-face2::linb=575::colb=1::cole=14][ref]]
