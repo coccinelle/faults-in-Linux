@@ -255,6 +255,7 @@ experiment main
 	double_lockintr2 ,
 	ret6 
 
+/*
 experiment rcu
 	on project Linux
 	with pattern
@@ -265,3 +266,4 @@ experiment rcu
 	rcu_lock_sched_notrace,
 //	rcu_other,
 	rcu_deref_out
+*/
