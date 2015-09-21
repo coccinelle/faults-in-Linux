@@ -88,7 +88,7 @@
 ** [[view:/fast_scratch/linuxes/linux-3.17/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::face=ovl-face1::linb=54::colb=5::cole=12][null test /fast_scratch/linuxes/linux-3.17/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::54]]
 ** [[view:/fast_scratch/linuxes/linux-3.18/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::face=ovl-face1::linb=54::colb=5::cole=12][null test /fast_scratch/linuxes/linux-3.18/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::54]]
 ** [[view:/fast_scratch/linuxes/linux-3.19/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::face=ovl-face1::linb=54::colb=5::cole=12][null test /fast_scratch/linuxes/linux-3.19/drivers/media/i2c/s5c73m3/s5c73m3-spi.c::54]]
-* FP [[view:/fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::face=ovl-face1::linb=225::colb=6::cole=8][null test /fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::225]]
+* BUG [[view:/fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::face=ovl-face1::linb=225::colb=6::cole=8][null test /fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::225]]
  [[view:/fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::face=ovl-face2::linb=226::colb=15::cole=21][nullref]]
 ** [[view:/fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::face=ovl-face1::linb=225::colb=6::cole=8][null test /fast_scratch/linuxes/linux-3.9/drivers/staging/media/lirc/lirc_igorplugusb.c::225]]
 ** [[view:/fast_scratch/linuxes/linux-3.10/drivers/staging/media/lirc/lirc_igorplugusb.c::face=ovl-face1::linb=225::colb=6::cole=8][null test /fast_scratch/linuxes/linux-3.10/drivers/staging/media/lirc/lirc_igorplugusb.c::225]]
