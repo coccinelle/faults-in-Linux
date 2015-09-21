@@ -52,6 +52,6 @@ export: $(EXPORT)
 $(EXPORT): $(NEW)
 	mkdir -p sql
 	$(HERODOTOS) export-reports --prefix /fast_scratch/linuxes/ \
-		--orgfile results/linuxes/Linux_$@.new.org \
+		--orgfile results/linuxes/Linux_$(@:export-%=%).new.org \
 		--to-sql-update linux-$(MINVER) > sql/$@.sql
 
