@@ -3,10 +3,9 @@
 all:
 
 update-branches:
-	git checkout orig.org && git merge master
-	git checkout correl && git merge orig.org
-	git checkout edit.hybrid && git merge correl
-	git checkout new.hybrid && git merge edit.hybrid
+	git checkout collect && git merge master
+	git checkout orig.org && git merge collect
+	git checkout new.hybrid && git merge orig.org
 
 blob_dump:
 	pg_dump -b -c -C -f $(PGDATABASE).$@ -F c -O -Z 9 -U $(USER) -W $(PGDATABASE)
