@@ -10,6 +10,14 @@ in the git repository mentioned in the Herodotos configuration files
 The branch are incrementally defined. At each step, new results
 are added to the tree.
 
+------------------------------------- master
+ \       \       \
+  +-------+-------+------------------ collect
+     \       \       \
+      +-------+-------+-------------- orig.org
+          \       \       \
+           +-------+-------+--------- new.hybrid
+
 The 'master' branch keeps track of the project definitions.
 These definitions include which coccinelle files are applied and
 which options are used.
@@ -20,12 +28,6 @@ It tracks the list of functions that will be used to look for faults.
 The 'orig.org' branch tracks the results of Coccinelle for each
 spatch file and each Linux version. The *.orig.org files are stored
 under results/linux/linux-*/.
-
-The 'edit.hybrid' branch tracks the correlated reports. The reports
-have been correlated with the hybrid strategy. It means that GNU Diff
-has been used to track the faults, then GumTree when GNU Diff has failed.
-The correlation files are empty with this strategy. The edit.org files
-have reports marked for inspection, i.e. TODO.
 
 The 'new.hybrid' branch is almost identical. Each new.org file is a copy
 of the corresponding edit.org file. Once inspected, the reports should no
