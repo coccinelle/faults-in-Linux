@@ -47,11 +47,19 @@ extract:
 	cd results/linuxes/ ; find -name "Linux_*.new.org" -exec $(HERODOTOS) extract --orgfile \{} --tag linux-$(VER) --prefix /scratch/linuxes/ -o ../../v$(VER)/\{} \;
 
 
+UPDATE=$(PATTERNS:%=update-%)
+update: $(UPDATE)
+$(UPDATE): $(NEW)
+	mkdir -p sql
+	$(HERODOTOS) export-reports --prefix /fast_scratch/linuxes/ \
+		--orgfile results/linuxes/Linux_$(@:update-%=%).new.org \
+		--to-sql-update linux-$(MINVER) > sql/$@.$(MINVER).sql
+
 EXPORT=$(PATTERNS:%=export-%)
 export: $(EXPORT)
 $(EXPORT): $(NEW)
 	mkdir -p sql
 	$(HERODOTOS) export-reports --prefix /fast_scratch/linuxes/ \
 		--orgfile results/linuxes/Linux_$(@:export-%=%).new.org \
-		--to-sql-update linux-$(MINVER) > sql/$@.sql
+		--to-sql > sql/$@.sql
 
