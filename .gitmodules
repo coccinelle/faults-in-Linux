@@ -1,0 +1,3 @@
+[submodule "figures"]
+	path = figures
+	url = ../linux-study-figures.git
