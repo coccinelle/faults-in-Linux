@@ -61,5 +61,10 @@ as a Org headline. The status are the following:
 For each report, the list of Linux version affected is given
 as subitems of the headline.
 
+* 4. How to clean up some report entries *
+
+psql# delete from reports using full_reports
+	 where reports.report_id = full_reports.report_id
+	 and full_reports.correlation_last_date >= '2011-10-24';
 -- 
 Nicolas Palix
