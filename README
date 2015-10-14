@@ -7,6 +7,13 @@ in the git repository mentioned in the Herodotos configuration files
 
 * 1. Repository organisation *
 
+SHORT explanation:
+ - To retrieve our results, checkout the 'new.hybrid' branch
+ - To run your own experiment and produce your own results,
+	checkout the 'master' branch.
+
+LONG explanation:
+
 The branch are incrementally defined. At each step, new results
 are added to the tree.
 
