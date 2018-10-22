@@ -14,4 +14,4 @@ include /usr/local/share/herodotos/Makefile.inc
 all:: /usr/share/pyshared/psycopg2/__init__.py
 
 $(CONF): $(CONF).base 
-	 cpp -P -D$(HOST) $^ | sed "s|/1 |/linux|" > $@
+	 cpp -undef -P -D$(HOST) $^ > $@

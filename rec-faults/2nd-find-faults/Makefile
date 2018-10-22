@@ -15,7 +15,7 @@ include /usr/local/share/herodotos/Makefile.inc
 .PHONY:: pack
 
 $(CONF): $(CONF).base
-	 cpp -P -D$(HOST) $^ | sed "s|/1 |/linux|" > $@
+	 cpp -undef -P -D$(HOST) $^ > $@
 
 pack:
 	tar cjvf ../$(DIR)_$(CONF:%.hc=%)_data.tbz2 -C .. --exclude-vcs $(DIR)
