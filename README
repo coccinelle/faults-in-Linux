@@ -75,5 +75,23 @@ as subitems of the headline.
 psql# delete from reports using full_reports
 	 where reports.report_id = full_reports.report_id
 	 and full_reports.correlation_last_date >= '2011-10-24';
+
+* 5. How to debug/trace the process *
+
+============ debug.config =============
+logger "" {
+  level = trace;
+  filter = all;
+  layout = default;
+  mode = direct;
+  output = file;
+  name = "full-trace.log";
+}
+======================================
+
+Run the tool with BOLT_CONFIG=debug.config
+set as an environment variable.
+
+
 -- 
 Nicolas Palix
